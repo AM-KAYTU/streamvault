@@ -1,1 +1,7 @@
-{"data":"ewogICJmdW5jdGlvbnMiOiB7CiAgICAic3JjL2FwcC9hcGkvc3RyZWFtL1tpZF0vcm91dGUudHMiOiB7CiAgICAgICJtYXhEdXJhdGlvbiI6IDYwCiAgICB9CiAgfQp9Cg=="}
+{
+  "functions": {
+    "src/app/api/stream/[id]/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

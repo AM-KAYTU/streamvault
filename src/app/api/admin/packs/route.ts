@@ -1,1 +1,54 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgdmVyaWZ5QWRtaW5Ub2tlbiB9IGZyb20gIkAvbGliL3Rva2VucyI7CmltcG9ydCB7IHByaXNtYSB9IGZyb20gIkAvbGliL3ByaXNtYSI7CmltcG9ydCB7IGNvb2tpZXMgfSBmcm9tICJuZXh0L2hlYWRlcnMiOwoKYXN5bmMgZnVuY3Rpb24gaXNBZG1pbigpIHsKICBjb25zdCBzdG9yZSA9IGF3YWl0IGNvb2tpZXMoKTsKICBjb25zdCB0b2tlbiA9IHN0b3JlLmdldCgiYWRtaW5fdG9rZW4iKT8udmFsdWU7CiAgcmV0dXJuICEhdG9rZW4gJiYgKGF3YWl0IHZlcmlmeUFkbWluVG9rZW4odG9rZW4pKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVCgpIHsKICBpZiAoIShhd2FpdCBpc0FkbWluKCkpKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlVuYXV0aG9yaXplZCIgfSwgeyBzdGF0dXM6IDQwMSB9KTsKICBjb25zdCBwYWNrcyA9IGF3YWl0IHByaXNtYS5jcmVkaXRQYWNrLmZpbmRNYW55KHsKICAgIG9yZGVyQnk6IHsgY3JlYXRlZEF0OiAiZGVzYyIgfSwKICAgIGluY2x1ZGU6IHsgX2NvdW50OiB7IHNlbGVjdDogeyBwdXJjaGFzZXM6IHRydWUgfSB9IH0sCiAgfSk7CiAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHBhY2tzKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBOZXh0UmVxdWVzdCkgewogIGlmICghKGF3YWl0IGlzQWRtaW4oKSkpIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiVW5hdXRob3JpemVkIiB9LCB7IHN0YXR1czogNDAxIH0pOwogIGNvbnN0IHsgbmFtZSwgbWludXRlcywgcHJpY2UsIHBvcHVsYXIsIGFjdGl2ZSB9ID0gYXdhaXQgcmVxLmpzb24oKTsKICBpZiAoIW5hbWUgfHwgIW1pbnV0ZXMgfHwgIXByaWNlKSB7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIm5hbWUsIG1pbnV0ZXMsIGFuZCBwcmljZSBhcmUgcmVxdWlyZWQiIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgfQogIGNvbnN0IHBhY2sgPSBhd2FpdCBwcmlzbWEuY3JlZGl0UGFjay5jcmVhdGUoewogICAgZGF0YTogeyBuYW1lLCBtaW51dGVzOiBOdW1iZXIobWludXRlcyksIHByaWNlOiBOdW1iZXIocHJpY2UpLCBwb3B1bGFyOiBCb29sZWFuKHBvcHVsYXIpLCBhY3RpdmU6IGFjdGl2ZSAhPT0gZmFsc2UgfSwKICB9KTsKICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24ocGFjaywgeyBzdGF0dXM6IDIwMSB9KTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBVVChyZXE6IE5leHRSZXF1ZXN0KSB7CiAgaWYgKCEoYXdhaXQgaXNBZG1pbigpKSkgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJVbmF1dGhvcml6ZWQiIH0sIHsgc3RhdHVzOiA0MDEgfSk7CiAgY29uc3QgeyBpZCwgLi4ucmVzdCB9ID0gYXdhaXQgcmVxLmpzb24oKTsKICBpZiAoIWlkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogImlkIHJlcXVpcmVkIiB9LCB7IHN0YXR1czogNDAwIH0pOwogIGNvbnN0IHBhY2sgPSBhd2FpdCBwcmlzbWEuY3JlZGl0UGFjay51cGRhdGUoewogICAgd2hlcmU6IHsgaWQgfSwKICAgIGRhdGE6IHsKICAgICAgLi4ucmVzdCwKICAgICAgbWludXRlczogcmVzdC5taW51dGVzICE9PSB1bmRlZmluZWQgPyBOdW1iZXIocmVzdC5taW51dGVzKSA6IHVuZGVmaW5lZCwKICAgICAgcHJpY2U6IHJlc3QucHJpY2UgIT09IHVuZGVmaW5lZCA/IE51bWJlcihyZXN0LnByaWNlKSA6IHVuZGVmaW5lZCwKICAgIH0sCiAgfSk7CiAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHBhY2spOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gREVMRVRFKHJlcTogTmV4dFJlcXVlc3QpIHsKICBpZiAoIShhd2FpdCBpc0FkbWluKCkpKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlVuYXV0aG9yaXplZCIgfSwgeyBzdGF0dXM6IDQwMSB9KTsKICBjb25zdCBpZCA9IG5ldyBVUkwocmVxLnVybCkuc2VhcmNoUGFyYW1zLmdldCgiaWQiKTsKICBpZiAoIWlkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogImlkIHJlcXVpcmVkIiB9LCB7IHN0YXR1czogNDAwIH0pOwogIGF3YWl0IHByaXNtYS5jcmVkaXRQYWNrLmRlbGV0ZSh7IHdoZXJlOiB7IGlkIH0gfSk7CiAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IHRydWUgfSk7Cn0K"}
+import { NextRequest, NextResponse } from "next/server";
+import { verifyAdminToken } from "@/lib/tokens";
+import { prisma } from "@/lib/prisma";
+import { cookies } from "next/headers";
+
+async function isAdmin() {
+  const store = await cookies();
+  const token = store.get("admin_token")?.value;
+  return !!token && (await verifyAdminToken(token));
+}
+
+export async function GET() {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const packs = await prisma.creditPack.findMany({
+    orderBy: { createdAt: "desc" },
+    include: { _count: { select: { purchases: true } } },
+  });
+  return NextResponse.json(packs);
+}
+
+export async function POST(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { name, minutes, price, popular, active } = await req.json();
+  if (!name || !minutes || !price) {
+    return NextResponse.json({ error: "name, minutes, and price are required" }, { status: 400 });
+  }
+  const pack = await prisma.creditPack.create({
+    data: { name, minutes: Number(minutes), price: Number(price), popular: Boolean(popular), active: active !== false },
+  });
+  return NextResponse.json(pack, { status: 201 });
+}
+
+export async function PUT(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { id, ...rest } = await req.json();
+  if (!id) return NextResponse.json({ error: "id required" }, { status: 400 });
+  const pack = await prisma.creditPack.update({
+    where: { id },
+    data: {
+      ...rest,
+      minutes: rest.minutes !== undefined ? Number(rest.minutes) : undefined,
+      price: rest.price !== undefined ? Number(rest.price) : undefined,
+    },
+  });
+  return NextResponse.json(pack);
+}
+
+export async function DELETE(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const id = new URL(req.url).searchParams.get("id");
+  if (!id) return NextResponse.json({ error: "id required" }, { status: 400 });
+  await prisma.creditPack.delete({ where: { id } });
+  return NextResponse.json({ ok: true });
+}

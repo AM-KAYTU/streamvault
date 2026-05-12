@@ -1,1 +1,7 @@
-{"data":"ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQWRtaW5Sb290TGF5b3V0KHsKICBjaGlsZHJlbiwKfTogewogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7Cn0pIHsKICByZXR1cm4gPD57Y2hpbGRyZW59PC8+Owp9Cg=="}
+export default function AdminRootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

@@ -1,1 +1,5 @@
-{"data":"Ly8vIDxyZWZlcmVuY2UgdHlwZXM9Im5leHQiIC8+DQovLy8gPHJlZmVyZW5jZSB0eXBlcz0ibmV4dC9pbWFnZS10eXBlcy9nbG9iYWwiIC8+DQoNCi8vIE5PVEU6IFRoaXMgZmlsZSBzaG91bGQgbm90IGJlIGVkaXRlZA0KLy8gc2VlIGh0dHBzOi8vbmV4dGpzLm9yZy9kb2NzL2FwcC9idWlsZGluZy15b3VyLWFwcGxpY2F0aW9uL2NvbmZpZ3VyaW5nL3R5cGVzY3JpcHQgZm9yIG1vcmUgaW5mb3JtYXRpb24uDQo="}
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/app/building-your-application/configuring/typescript for more information.

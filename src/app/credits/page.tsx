@@ -1,1 +1,13 @@
-{"data":"aW1wb3J0IHsgcHJpc21hIH0gZnJvbSAiQC9saWIvcHJpc21hIjsKaW1wb3J0IENyZWRpdHNDbGllbnQgZnJvbSAiLi9DcmVkaXRzQ2xpZW50IjsKCmV4cG9ydCBjb25zdCBkeW5hbWljID0gImZvcmNlLWR5bmFtaWMiOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gQ3JlZGl0c1BhZ2UoKSB7CiAgY29uc3QgcGFja3MgPSBhd2FpdCBwcmlzbWEuY3JlZGl0UGFjay5maW5kTWFueSh7CiAgICB3aGVyZTogeyBhY3RpdmU6IHRydWUgfSwKICAgIG9yZGVyQnk6IHsgbWludXRlczogImFzYyIgfSwKICB9KTsKCiAgcmV0dXJuIDxDcmVkaXRzQ2xpZW50IHBhY2tzPXtwYWNrc30gLz47Cn0K"}
+import { prisma } from "@/lib/prisma";
+import CreditsClient from "./CreditsClient";
+
+export const dynamic = "force-dynamic";
+
+export default async function CreditsPage() {
+  const packs = await prisma.creditPack.findMany({
+    where: { active: true },
+    orderBy: { minutes: "asc" },
+  });
+
+  return <CreditsClient packs={packs} />;
+}

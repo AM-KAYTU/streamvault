@@ -1,1 +1,295 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyBmb3JtYXREdXJhdGlvbiB9IGZyb20gIkAvbGliL2Zvcm1hdCI7CgppbnRlcmZhY2UgVmlkZW8gewogIGlkOiBzdHJpbmc7IHRpdGxlOiBzdHJpbmc7IGRlc2NyaXB0aW9uOiBzdHJpbmc7IHRodW1ibmFpbDogc3RyaW5nOwogIHZpZGVvVXJsOiBzdHJpbmc7IGNhdGVnb3J5OiBzdHJpbmcgfCBudWxsOwogIGR1cmF0aW9uOiBudW1iZXIgfCBudWxsOyBmZWF0dXJlZDogYm9vbGVhbjsgcHVibGlzaGVkOiBib29sZWFuOyB2aWV3czogbnVtYmVyOwogIGNyZWF0ZWRBdDogc3RyaW5nOyBfY291bnQ/OiB7IHdhdGNoRXZlbnRzOiBudW1iZXIgfTsKfQoKY29uc3QgRU1QVFk6IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IGJvb2xlYW4+ID0gewogIHRpdGxlOiAiIiwgZGVzY3JpcHRpb246ICIiLCB0aHVtYm5haWw6ICIiLCB2aWRlb1VybDogIiIsCiAgY2F0ZWdvcnk6ICIiLCBkdXJhdGlvbjogIiIsIGZlYXR1cmVkOiBmYWxzZSwgcHVibGlzaGVkOiB0cnVlLAp9OwoKZnVuY3Rpb24gRmllbGQoeyBsYWJlbCwgdmFsdWUsIG9uQ2hhbmdlLCBwbGFjZWhvbGRlciwgdGV4dGFyZWEsIHR5cGUgPSAidGV4dCIgfTogewogIGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmc7IG9uQ2hhbmdlOiAodjogc3RyaW5nKSA9PiB2b2lkOwogIHBsYWNlaG9sZGVyPzogc3RyaW5nOyB0ZXh0YXJlYT86IGJvb2xlYW47IHR5cGU/OiBzdHJpbmc7Cn0pIHsKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWdyYXktMzAwIG1iLTEuNSI+e2xhYmVsfTwvbGFiZWw+CiAgICAgIHt0ZXh0YXJlYQogICAgICAgID8gPHRleHRhcmVhIHZhbHVlPXt2YWx1ZX0gb25DaGFuZ2U9eyhlKSA9PiBvbkNoYW5nZShlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPXtwbGFjZWhvbGRlcn0gcm93cz17M30gY2xhc3NOYW1lPSJpbnB1dC1maWVsZCByZXNpemUtbm9uZSIgLz4KICAgICAgICA6IDxpbnB1dCB0eXBlPXt0eXBlfSB2YWx1ZT17dmFsdWV9IG9uQ2hhbmdlPXsoZSkgPT4gb25DaGFuZ2UoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj17cGxhY2Vob2xkZXJ9IGNsYXNzTmFtZT0iaW5wdXQtZmllbGQiIC8+CiAgICAgIH0KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFkbWluVmlkZW9zUGFnZSgpIHsKICBjb25zdCBbdmlkZW9zLCBzZXRWaWRlb3NdID0gdXNlU3RhdGU8VmlkZW9bXT4oW10pOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwogIGNvbnN0IFtzaG93Rm9ybSwgc2V0U2hvd0Zvcm1dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlZGl0aW5nLCBzZXRFZGl0aW5nXSA9IHVzZVN0YXRlPFZpZGVvIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gdXNlU3RhdGU8UmVjb3JkPHN0cmluZywgc3RyaW5nIHwgYm9vbGVhbj4+KEVNUFRZKTsKICBjb25zdCBbc2F2aW5nLCBzZXRTYXZpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtkZWxldGluZywgc2V0RGVsZXRpbmddID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICBjb25zdCByID0gYXdhaXQgZmV0Y2goIi9hcGkvYWRtaW4vdmlkZW9zIik7CiAgICBpZiAoci5vaykgc2V0VmlkZW9zKGF3YWl0IHIuanNvbigpKTsKICAgIHNldExvYWRpbmcoZmFsc2UpOwogIH0KICB1c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IH0sIFtdKTsKCiAgZnVuY3Rpb24gb3Blbk5ldygpIHsgc2V0RWRpdGluZyhudWxsKTsgc2V0Rm9ybShFTVBUWSk7IHNldEVycm9yKCIiKTsgc2V0U2hvd0Zvcm0odHJ1ZSk7IH0KICBmdW5jdGlvbiBvcGVuRWRpdCh2OiBWaWRlbykgewogICAgc2V0RWRpdGluZyh2KTsKICAgIHNldEZvcm0oeyB0aXRsZTogdi50aXRsZSwgZGVzY3JpcHRpb246IHYuZGVzY3JpcHRpb24sIHRodW1ibmFpbDogdi50aHVtYm5haWwsIHZpZGVvVXJsOiB2LnZpZGVvVXJsLAogICAgICBjYXRlZ29yeTogdi5jYXRlZ29yeSB8fCAiIiwgZHVyYXRpb246IHYuZHVyYXRpb24gPyBTdHJpbmcodi5kdXJhdGlvbikgOiAiIiwKICAgICAgZmVhdHVyZWQ6IHYuZmVhdHVyZWQsIHB1Ymxpc2hlZDogdi5wdWJsaXNoZWQgfSk7CiAgICBzZXRFcnJvcigiIik7IHNldFNob3dGb3JtKHRydWUpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlU2F2ZSgpIHsKICAgIGlmICghZm9ybS50aXRsZSB8fCAhZm9ybS52aWRlb1VybCB8fCAhZm9ybS50aHVtYm5haWwpIHsgc2V0RXJyb3IoIlRpdGxlLCBWaWRlbyBVUkwsIGFuZCBUaHVtYm5haWwgYXJlIHJlcXVpcmVkLiIpOyByZXR1cm47IH0KICAgIHNldFNhdmluZyh0cnVlKTsgc2V0RXJyb3IoIiIpOwogICAgY29uc3QgcGF5bG9hZCA9IHsgLi4uZm9ybSwgZHVyYXRpb246IGZvcm0uZHVyYXRpb24gPyBOdW1iZXIoZm9ybS5kdXJhdGlvbikgOiBudWxsLCAuLi4oZWRpdGluZyA/IHsgaWQ6IGVkaXRpbmcuaWQgfSA6IHt9KSB9OwogICAgY29uc3QgciA9IGF3YWl0IGZldGNoKCIvYXBpL2FkbWluL3ZpZGVvcyIsIHsgbWV0aG9kOiBlZGl0aW5nID8gIlBVVCIgOiAiUE9TVCIsIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9LCBib2R5OiBKU09OLnN0cmluZ2lmeShwYXlsb2FkKSB9KTsKICAgIGlmIChyLm9rKSB7IGF3YWl0IGxvYWQoKTsgc2V0U2hvd0Zvcm0oZmFsc2UpOyB9IGVsc2UgeyBjb25zdCBkID0gYXdhaXQgci5qc29uKCk7IHNldEVycm9yKGQuZXJyb3IgfHwgIkZhaWxlZCIpOyB9CiAgICBzZXRTYXZpbmcoZmFsc2UpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlRGVsZXRlKGlkOiBzdHJpbmcpIHsKICAgIGlmICghY29uZmlybSgiRGVsZXRlIHRoaXMgdmlkZW8/IikpIHJldHVybjsKICAgIHNldERlbGV0aW5nKGlkKTsKICAgIGF3YWl0IGZldGNoKGAvYXBpL2FkbWluL3ZpZGVvcz9pZD0ke2lkfWAsIHsgbWV0aG9kOiAiREVMRVRFIiB9KTsKICAgIGF3YWl0IGxvYWQoKTsgc2V0RGVsZXRpbmcobnVsbCk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi04Ij4KICAgICAgICA8ZGl2PjxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCI+VmlkZW9zPC9oMT48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQgdGV4dC1zbSBtdC0wLjUiPk1hbmFnZSB5b3VyIGNvbnRlbnQgbGlicmFyeTwvcD48L2Rpdj4KICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e29wZW5OZXd9IGNsYXNzTmFtZT0iYnRuLWdvbGQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNCBoLTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNMTIgNHYxNm04LThINCIgLz48L3N2Zz4KICAgICAgICAgIEFkZCBWaWRlbwogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHtsb2FkaW5nID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPntbLi4uQXJyYXkoMyldLm1hcCgoXywgaSkgPT4gPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iaC0yNCBiZy1zdXJmYWNlIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQteGwgc2hpbW1lciIgLz4pfTwvZGl2PgogICAgICApIDogdmlkZW9zLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgcHktMjAgYmctc3VyZmFjZSBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLTJ4bCI+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkIj5ObyB2aWRlb3MgeWV0LiBBZGQgeW91ciBmaXJzdCB2aWRlbyBhYm92ZS48L3A+PC9kaXY+CiAgICAgICkgOiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICB7dmlkZW9zLm1hcCgodikgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17di5pZH0gY2xhc3NOYW1lPSJiZy1zdXJmYWNlIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQteGwgcC00IGZsZXggaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy0yNCBoLTE0IHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIHNocmluay0wIGJnLXN1cmZhY2UtaGlnaCI+CiAgICAgICAgICAgICAgICA8SW1hZ2Ugc3JjPXt2LnRodW1ibmFpbH0gYWx0PXt2LnRpdGxlfSBmaWxsIGNsYXNzTmFtZT0ib2JqZWN0LWNvdmVyIiB1bm9wdGltaXplZCAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgZmxleC13cmFwIj4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIHRydW5jYXRlIj57di50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgICB7di5mZWF0dXJlZCAmJiA8c3BhbiBjbGFzc05hbWU9ImJhZGdlIGJnLWdvbGQvMTAgdGV4dC1nb2xkIGJvcmRlciBib3JkZXItZ29sZC8yMCB0ZXh0LVsxMHB4XSI+RmVhdHVyZWQ8L3NwYW4+fQogICAgICAgICAgICAgICAgICB7IXYucHVibGlzaGVkICYmIDxzcGFuIGNsYXNzTmFtZT0iYmFkZ2UgYmctZ3JheS01MDAvMTAgdGV4dC1ncmF5LTQwMCBib3JkZXIgYm9yZGVyLWdyYXktNjAwIHRleHQtWzEwcHhdIj5EcmFmdDwvc3Bhbj59CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC00IHRleHQteHMgdGV4dC1tdXRlZCBtdC0xIGZsZXgtd3JhcCI+CiAgICAgICAgICAgICAgICAgIDxzcGFuPnt2LnZpZXdzLnRvTG9jYWxlU3RyaW5nKCl9IHZpZXdzPC9zcGFuPgogICAgICAgICAgICAgICAgICB7di5fY291bnQgJiYgPHNwYW4+e3YuX2NvdW50LndhdGNoRXZlbnRzfSB3YXRjaCBldmVudHM8L3NwYW4+fQogICAgICAgICAgICAgICAgICB7di5kdXJhdGlvbiAmJiA8c3Bhbj57Zm9ybWF0RHVyYXRpb24odi5kdXJhdGlvbil9PC9zcGFuPn0KICAgICAgICAgICAgICAgICAge3YuY2F0ZWdvcnkgJiYgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWdvbGQiPnt2LmNhdGVnb3J5fTwvc3Bhbj59CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IG9wZW5FZGl0KHYpfSBjbGFzc05hbWU9InRleHQteHMgdGV4dC1ncmF5LTQwMCBob3Zlcjp0ZXh0LXdoaXRlIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtbGcgcHgtMyBweS0xLjUgdHJhbnNpdGlvbi1jb2xvcnMiPkVkaXQ8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gaGFuZGxlRGVsZXRlKHYuaWQpfSBkaXNhYmxlZD17ZGVsZXRpbmcgPT09IHYuaWR9IGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXJlZC00MDAgaG92ZXI6dGV4dC1yZWQtMzAwIGJvcmRlciBib3JkZXItcmVkLTgwMC80MCByb3VuZGVkLWxnIHB4LTMgcHktMS41IHRyYW5zaXRpb24tY29sb3JzIGRpc2FibGVkOm9wYWNpdHktNTAiPgogICAgICAgICAgICAgICAgICB7ZGVsZXRpbmcgPT09IHYuaWQgPyAiLi4uIiA6ICJEZWxldGUifQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7c2hvd0Zvcm0gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotNTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC00Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWJsYWNrLzcwIGJhY2tkcm9wLWJsdXItc20iIG9uQ2xpY2s9eygpID0+IHNldFNob3dGb3JtKGZhbHNlKX0gLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBiZy1zdXJmYWNlIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtMnhsIHctZnVsbCBtYXgtdy14bCBtYXgtaC1bOTB2aF0gb3ZlcmZsb3cteS1hdXRvIHNoYWRvdy0yeGwiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC02Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG1iLTYiPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQiPntlZGl0aW5nID8gIkVkaXQgVmlkZW8iIDogIkFkZCBOZXcgVmlkZW8ifTwvaDI+CiAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFNob3dGb3JtKGZhbHNlKX0gY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNTAwIGhvdmVyOnRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezJ9IGQ9Ik02IDE4TDE4IDZNNiA2bDEyIDEyIiAvPjwvc3ZnPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IlRpdGxlICoiIHZhbHVlPXtTdHJpbmcoZm9ybS50aXRsZSl9IG9uQ2hhbmdlPXsodikgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIHRpdGxlOiB2IH0pfSBwbGFjZWhvbGRlcj0iVmlkZW8gdGl0bGUiIC8+CiAgICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IkRlc2NyaXB0aW9uIiB2YWx1ZT17U3RyaW5nKGZvcm0uZGVzY3JpcHRpb24pfSBvbkNoYW5nZT17KHYpID0+IHNldEZvcm0oeyAuLi5mb3JtLCBkZXNjcmlwdGlvbjogdiB9KX0gcGxhY2Vob2xkZXI9IkRlc2NyaXB0aW9uIiB0ZXh0YXJlYSAvPgogICAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJWaWRlbyBVUkwgKiIgdmFsdWU9e1N0cmluZyhmb3JtLnZpZGVvVXJsKX0gb25DaGFuZ2U9eyh2KSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgdmlkZW9Vcmw6IHYgfSl9IHBsYWNlaG9sZGVyPSJodHRwczovLy4uLiIgLz4KICAgICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iVGh1bWJuYWlsIFVSTCAqIiB2YWx1ZT17U3RyaW5nKGZvcm0udGh1bWJuYWlsKX0gb25DaGFuZ2U9eyh2KSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgdGh1bWJuYWlsOiB2IH0pfSBwbGFjZWhvbGRlcj0iaHR0cHM6Ly8uLi4iIC8+CiAgICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IkR1cmF0aW9uIChzZWNvbmRzKSIgdmFsdWU9e1N0cmluZyhmb3JtLmR1cmF0aW9uKX0gb25DaGFuZ2U9eyh2KSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgZHVyYXRpb246IHYgfSl9IHBsYWNlaG9sZGVyPSJlLmcuIDM2MDAiIHR5cGU9Im51bWJlciIgLz4KICAgICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iQ2F0ZWdvcnkiIHZhbHVlPXtTdHJpbmcoZm9ybS5jYXRlZ29yeSl9IG9uQ2hhbmdlPXsodikgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIGNhdGVnb3J5OiB2IH0pfSBwbGFjZWhvbGRlcj0iZS5nLiBUdXRvcmlhbCIgLz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC02Ij4KICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgY3Vyc29yLXBvaW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgY2hlY2tlZD17Qm9vbGVhbihmb3JtLmZlYXR1cmVkKX0gb25DaGFuZ2U9eyhlKSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgZmVhdHVyZWQ6IGUudGFyZ2V0LmNoZWNrZWQgfSl9IGNsYXNzTmFtZT0idy00IGgtNCBhY2NlbnQtZ29sZCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTMwMCI+RmVhdHVyZWQ8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGN1cnNvci1wb2ludGVyIj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iY2hlY2tib3giIGNoZWNrZWQ9e0Jvb2xlYW4oZm9ybS5wdWJsaXNoZWQpfSBvbkNoYW5nZT17KGUpID0+IHNldEZvcm0oeyAuLi5mb3JtLCBwdWJsaXNoZWQ6IGUudGFyZ2V0LmNoZWNrZWQgfSl9IGNsYXNzTmFtZT0idy00IGgtNCBhY2NlbnQtZ29sZCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTMwMCI+UHVibGlzaGVkPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAge2Vycm9yICYmIDxkaXYgY2xhc3NOYW1lPSJtdC00IGJnLXJlZC01MDAvMTAgYm9yZGVyIGJvcmRlci1yZWQtNTAwLzMwIHJvdW5kZWQtbGcgcHgtNCBweS0zIHRleHQtcmVkLTQwMCB0ZXh0LXNtIj57ZXJyb3J9PC9kaXY+fQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0zIG10LTYiPgogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtoYW5kbGVTYXZlfSBkaXNhYmxlZD17c2F2aW5nfSBjbGFzc05hbWU9ImJ0bi1nb2xkIGZsZXgtMSBweS0zIj57c2F2aW5nID8gIlNhdmluZy4uLiIgOiBlZGl0aW5nID8gIlNhdmUgQ2hhbmdlcyIgOiAiQWRkIFZpZGVvIn08L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0U2hvd0Zvcm0oZmFsc2UpfSBjbGFzc05hbWU9ImJ0bi1vdXRsaW5lIHB4LTYgcHktMyI+Q2FuY2VsPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import { formatDuration } from "@/lib/format";
+
+interface Video {
+  id: string; title: string; description: string; thumbnail: string;
+  cfVideoId: string | null; category: string | null;
+  duration: number | null; featured: boolean; published: boolean; views: number;
+  createdAt: string; _count?: { watchEvents: number };
+}
+
+interface FormState {
+  title: string; description: string; thumbnail: string; cfVideoId: string;
+  category: string; duration: string; featured: boolean; published: boolean;
+}
+
+const EMPTY: FormState = {
+  title: "", description: "", thumbnail: "", cfVideoId: "",
+  category: "", duration: "", featured: false, published: true,
+};
+
+function Field({ label, value, onChange, placeholder, textarea, type = "text" }: {
+  label: string; value: string; onChange: (v: string) => void;
+  placeholder?: string; textarea?: boolean; type?: string;
+}) {
+  return (
+    <div>
+      <label className="block text-sm font-medium text-gray-300 mb-1.5">{label}</label>
+      {textarea
+        ? <textarea value={value} onChange={(e) => onChange(e.target.value)} placeholder={placeholder} rows={3} className="input-field resize-none" />
+        : <input type={type} value={value} onChange={(e) => onChange(e.target.value)} placeholder={placeholder} className="input-field" />
+      }
+    </div>
+  );
+}
+
+export default function AdminVideosPage() {
+  const [videos, setVideos] = useState<Video[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [showForm, setShowForm] = useState(false);
+  const [editing, setEditing] = useState<Video | null>(null);
+  const [form, setForm] = useState<FormState>(EMPTY);
+  const [saving, setSaving] = useState(false);
+  const [deleting, setDeleting] = useState<string | null>(null);
+  const [error, setError] = useState("");
+  const [uploadState, setUploadState] = useState<"idle" | "uploading" | "done">("idle");
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  async function load() {
+    const r = await fetch("/api/admin/videos");
+    if (r.ok) setVideos(await r.json());
+    setLoading(false);
+  }
+  useEffect(() => { load(); }, []);
+
+  function openNew() {
+    setEditing(null); setForm(EMPTY); setError("");
+    setUploadState("idle"); setUploadProgress(0); setShowForm(true);
+  }
+  function openEdit(v: Video) {
+    setEditing(v);
+    setForm({
+      title: v.title, description: v.description, thumbnail: v.thumbnail,
+      cfVideoId: v.cfVideoId || "",
+      category: v.category || "", duration: v.duration ? String(v.duration) : "",
+      featured: v.featured, published: v.published,
+    });
+    setUploadState(v.cfVideoId ? "done" : "idle");
+    setUploadProgress(v.cfVideoId ? 100 : 0);
+    setError(""); setShowForm(true);
+  }
+
+  async function handleFileSelect(file: File) {
+    setUploadState("uploading");
+    setUploadProgress(0);
+    setError("");
+
+    try {
+      // Get one-time CF upload URL from our server
+      const res = await fetch("/api/admin/cf-upload", { method: "POST" });
+      if (!res.ok) throw new Error("Failed to create upload slot");
+      const { uid, uploadUrl } = await res.json();
+
+      // Upload file directly to Cloudflare using XHR for progress tracking
+      await new Promise<void>((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", uploadUrl);
+        xhr.upload.onprogress = (e) => {
+          if (e.lengthComputable) setUploadProgress(Math.round((e.loaded / e.total) * 100));
+        };
+        xhr.onload = () => {
+          if (xhr.status >= 200 && xhr.status < 300) resolve();
+          else reject(new Error(`Upload failed: ${xhr.status}`));
+        };
+        xhr.onerror = () => reject(new Error("Network error during upload"));
+        const fd = new FormData();
+        fd.append("file", file);
+        xhr.send(fd);
+      });
+
+      setForm((f) => ({ ...f, cfVideoId: uid }));
+      setUploadState("done");
+      setUploadProgress(100);
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Upload failed");
+      setUploadState("idle");
+      setUploadProgress(0);
+    }
+  }
+
+  async function handleSave() {
+    if (!form.title || !form.cfVideoId || !form.thumbnail) {
+      setError("Title, video file, and thumbnail are required.");
+      return;
+    }
+    setSaving(true); setError("");
+    const payload = {
+      ...form,
+      duration: form.duration ? Number(form.duration) : null,
+      ...(editing ? { id: editing.id } : {}),
+    };
+    const r = await fetch("/api/admin/videos", {
+      method: editing ? "PUT" : "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (r.ok) { await load(); setShowForm(false); }
+    else { const d = await r.json(); setError(d.error || "Failed"); }
+    setSaving(false);
+  }
+
+  async function handleDelete(id: string) {
+    if (!confirm("Delete this video?")) return;
+    setDeleting(id);
+    await fetch(`/api/admin/videos?id=${id}`, { method: "DELETE" });
+    await load(); setDeleting(null);
+  }
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h1 className="text-2xl font-bold">Videos</h1>
+          <p className="text-muted text-sm mt-0.5">Manage your content library</p>
+        </div>
+        <button onClick={openNew} className="btn-gold flex items-center gap-2">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+          </svg>
+          Add Video
+        </button>
+      </div>
+
+      {loading ? (
+        <div className="space-y-4">{[...Array(3)].map((_, i) => <div key={i} className="h-24 bg-surface border border-border rounded-xl shimmer" />)}</div>
+      ) : videos.length === 0 ? (
+        <div className="text-center py-20 bg-surface border border-border rounded-2xl">
+          <p className="text-muted">No videos yet. Add your first video above.</p>
+        </div>
+      ) : (
+        <div className="space-y-3">
+          {videos.map((v) => (
+            <div key={v.id} className="bg-surface border border-border rounded-xl p-4 flex items-center gap-4">
+              <div className="relative w-24 h-14 rounded-lg overflow-hidden shrink-0 bg-surface-high">
+                <Image src={v.thumbnail} alt={v.title} fill className="object-cover" unoptimized />
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h3 className="font-semibold text-white truncate">{v.title}</h3>
+                  {v.featured && <span className="badge bg-gold/10 text-gold border border-gold/20 text-[10px]">Featured</span>}
+                  {!v.published && <span className="badge bg-gray-500/10 text-gray-400 border border-gray-600 text-[10px]">Draft</span>}
+                  {!v.cfVideoId && <span className="badge bg-red-500/10 text-red-400 border border-red-800/40 text-[10px]">No CF Video</span>}
+                </div>
+                <div className="flex gap-4 text-xs text-muted mt-1 flex-wrap">
+                  <span>{v.views.toLocaleString()} views</span>
+                  {v._count && <span>{v._count.watchEvents} watch events</span>}
+                  {v.duration && <span>{formatDuration(v.duration)}</span>}
+                  {v.category && <span className="text-gold">{v.category}</span>}
+                </div>
+              </div>
+              <div className="shrink-0 flex gap-2">
+                <button onClick={() => openEdit(v)} className="text-xs text-gray-400 hover:text-white border border-border rounded-lg px-3 py-1.5 transition-colors">Edit</button>
+                <button onClick={() => handleDelete(v.id)} disabled={deleting === v.id} className="text-xs text-red-400 hover:text-red-300 border border-red-800/40 rounded-lg px-3 py-1.5 transition-colors disabled:opacity-50">
+                  {deleting === v.id ? "..." : "Delete"}
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {showForm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={() => setShowForm(false)} />
+          <div className="relative bg-surface border border-border rounded-2xl w-full max-w-xl max-h-[90vh] overflow-y-auto shadow-2xl">
+            <div className="p-6">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-xl font-bold">{editing ? "Edit Video" : "Add New Video"}</h2>
+                <button onClick={() => setShowForm(false)} className="text-gray-500 hover:text-white">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              <div className="space-y-4">
+                <Field label="Title *" value={form.title} onChange={(v) => setForm({ ...form, title: v })} placeholder="Video title" />
+                <Field label="Description" value={form.description} onChange={(v) => setForm({ ...form, description: v })} placeholder="Description" textarea />
+
+                {/* Video File Upload */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-1.5">Video File *</label>
+                  {uploadState === "done" ? (
+                    <div className="flex items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-lg px-4 py-3">
+                      <svg className="w-5 h-5 text-green-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-green-400 text-sm font-medium">Video uploaded to Cloudflare</p>
+                        <p className="text-gray-500 text-xs font-mono truncate mt-0.5">{form.cfVideoId}</p>
+                      </div>
+                      <button
+                        onClick={() => { setUploadState("idle"); setForm({ ...form, cfVideoId: "" }); if (fileRef.current) fileRef.current.value = ""; }}
+                        className="text-gray-500 hover:text-white text-xs shrink-0"
+                      >
+                        Replace
+                      </button>
+                    </div>
+                  ) : uploadState === "uploading" ? (
+                    <div className="bg-surface-high border border-border rounded-lg px-4 py-3">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-sm text-gray-300">Uploading to Cloudflare Stream…</span>
+                        <span className="text-gold text-sm font-semibold">{uploadProgress}%</span>
+                      </div>
+                      <div className="w-full bg-white/10 rounded-full h-1.5">
+                        <div className="bg-gold h-1.5 rounded-full transition-all duration-200" style={{ width: `${uploadProgress}%` }} />
+                      </div>
+                    </div>
+                  ) : (
+                    <div
+                      className="border-2 border-dashed border-border hover:border-gold/50 rounded-lg px-4 py-6 text-center cursor-pointer transition-colors"
+                      onClick={() => fileRef.current?.click()}
+                    >
+                      <svg className="w-8 h-8 text-gray-500 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                      </svg>
+                      <p className="text-sm text-gray-400">Click to select a video file</p>
+                      <p className="text-xs text-gray-600 mt-1">MP4, MOV, MKV — uploaded securely to Cloudflare Stream</p>
+                    </div>
+                  )}
+                  <input
+                    ref={fileRef}
+                    type="file"
+                    accept="video/*"
+                    className="hidden"
+                    onChange={(e) => { const f = e.target.files?.[0]; if (f) handleFileSelect(f); }}
+                  />
+                </div>
+
+                <Field label="Thumbnail URL *" value={form.thumbnail} onChange={(v) => setForm({ ...form, thumbnail: v })} placeholder="https://..." />
+                <Field label="Duration (seconds)" value={form.duration} onChange={(v) => setForm({ ...form, duration: v })} placeholder="e.g. 3600" type="number" />
+                <Field label="Category" value={form.category} onChange={(v) => setForm({ ...form, category: v })} placeholder="e.g. Tutorial" />
+                <div className="flex gap-6">
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input type="checkbox" checked={form.featured} onChange={(e) => setForm({ ...form, featured: e.target.checked })} className="w-4 h-4 accent-gold" />
+                    <span className="text-sm text-gray-300">Featured</span>
+                  </label>
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input type="checkbox" checked={form.published} onChange={(e) => setForm({ ...form, published: e.target.checked })} className="w-4 h-4 accent-gold" />
+                    <span className="text-sm text-gray-300">Published</span>
+                  </label>
+                </div>
+              </div>
+
+              {error && <div className="mt-4 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-3 text-red-400 text-sm">{error}</div>}
+              <div className="flex gap-3 mt-6">
+                <button
+                  onClick={handleSave}
+                  disabled={saving || uploadState === "uploading"}
+                  className="btn-gold flex-1 py-3 disabled:opacity-50"
+                >
+                  {saving ? "Saving..." : editing ? "Save Changes" : "Add Video"}
+                </button>
+                <button onClick={() => setShowForm(false)} className="btn-outline px-6 py-3">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

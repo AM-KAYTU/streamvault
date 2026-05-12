@@ -1,1 +1,52 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgdmVyaWZ5VHJhbnNhY3Rpb24gfSBmcm9tICJAL2xpYi9wYXlzdGFjayI7CmltcG9ydCB7IHByaXNtYSB9IGZyb20gIkAvbGliL3ByaXNtYSI7CmltcG9ydCB7IGdlbmVyYXRlUGluIH0gZnJvbSAiQC9saWIvcGluIjsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBHRVQocmVxOiBOZXh0UmVxdWVzdCkgewogIGNvbnN0IHsgc2VhcmNoUGFyYW1zIH0gPSBuZXcgVVJMKHJlcS51cmwpOwogIGNvbnN0IHJlZmVyZW5jZSA9IHNlYXJjaFBhcmFtcy5nZXQoInJlZmVyZW5jZSIpIHx8IHNlYXJjaFBhcmFtcy5nZXQoInRyeHJlZiIpOwogIGNvbnN0IGFwcFVybCA9IHByb2Nlc3MuZW52LkFQUF9VUkwgfHwgImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMCI7CgogIGlmICghcmVmZXJlbmNlKSByZXR1cm4gTmV4dFJlc3BvbnNlLnJlZGlyZWN0KGAke2FwcFVybH0vY3JlZGl0cz9lcnJvcj1ub19yZWZlcmVuY2VgKTsKCiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHZlcmlmeVRyYW5zYWN0aW9uKHJlZmVyZW5jZSk7CiAgICBpZiAocmVzdWx0LmRhdGEuc3RhdHVzICE9PSAic3VjY2VzcyIpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5yZWRpcmVjdChgJHthcHBVcmx9L2NyZWRpdHM/ZXJyb3I9cGF5bWVudF9mYWlsZWRgKTsKICAgIH0KCiAgICAvLyBJZGVtcG90ZW5jeQogICAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBwcmlzbWEucGFja1B1cmNoYXNlLmZpbmRVbmlxdWUoeyB3aGVyZTogeyBwYXlzdGFja1JlZjogcmVmZXJlbmNlIH0gfSk7CiAgICBpZiAoZXhpc3RpbmcpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5yZWRpcmVjdChgJHthcHBVcmx9L2NyZWRpdHMvc3VjY2Vzcz9waW49JHtleGlzdGluZy5waW59YCk7CiAgICB9CgogICAgY29uc3QgbWV0YSA9IHJlc3VsdC5kYXRhLm1ldGFkYXRhIGFzIHsgcGFja0lkPzogc3RyaW5nIH07CgogICAgY29uc3QgcGFjayA9IGF3YWl0IHByaXNtYS5jcmVkaXRQYWNrLmZpbmRVbmlxdWUoeyB3aGVyZTogeyBpZDogbWV0YS5wYWNrSWQgfSB9KTsKICAgIGlmICghcGFjaykgcmV0dXJuIE5leHRSZXNwb25zZS5yZWRpcmVjdChgJHthcHBVcmx9L2NyZWRpdHM/ZXJyb3I9cGFja19ub3RfZm91bmRgKTsKCiAgICAvLyBHZW5lcmF0ZSB1bmlxdWUgUElOCiAgICBsZXQgcGluID0gZ2VuZXJhdGVQaW4oKTsKICAgIGxldCBhdHRlbXB0cyA9IDA7CiAgICB3aGlsZSAoYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS5maW5kVW5pcXVlKHsgd2hlcmU6IHsgcGluIH0gfSkgJiYgYXR0ZW1wdHMgPCAxMCkgewogICAgICBwaW4gPSBnZW5lcmF0ZVBpbigpOwogICAgICBhdHRlbXB0cysrOwogICAgfQoKICAgIGF3YWl0IHByaXNtYS5wYWNrUHVyY2hhc2UuY3JlYXRlKHsKICAgICAgZGF0YTogewogICAgICAgIHBpbiwKICAgICAgICBzZWNvbmRzVG90YWw6IHBhY2subWludXRlcyAqIDYwLAogICAgICAgIHBheXN0YWNrUmVmOiByZWZlcmVuY2UsCiAgICAgICAgcGFja0lkOiBwYWNrLmlkLAogICAgICB9LAogICAgfSk7CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5yZWRpcmVjdChgJHthcHBVcmx9L2NyZWRpdHMvc3VjY2Vzcz9waW49JHtwaW59YCk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCJbY2FsbGJhY2tdIiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UucmVkaXJlY3QoYCR7YXBwVXJsfS9jcmVkaXRzP2Vycm9yPXZlcmlmaWNhdGlvbl9mYWlsZWRgKTsKICB9Cn0K"}
+import { NextRequest, NextResponse } from "next/server";
+import { verifyTransaction } from "@/lib/paystack";
+import { prisma } from "@/lib/prisma";
+import { generatePin } from "@/lib/pin";
+
+export async function GET(req: NextRequest) {
+  const { searchParams } = new URL(req.url);
+  const reference = searchParams.get("reference") || searchParams.get("trxref");
+  const appUrl = process.env.APP_URL || "http://localhost:3000";
+
+  if (!reference) return NextResponse.redirect(`${appUrl}/credits?error=no_reference`);
+
+  try {
+    const result = await verifyTransaction(reference);
+    if (result.data.status !== "success") {
+      return NextResponse.redirect(`${appUrl}/credits?error=payment_failed`);
+    }
+
+    // Idempotency
+    const existing = await prisma.packPurchase.findUnique({ where: { paystackRef: reference } });
+    if (existing) {
+      return NextResponse.redirect(`${appUrl}/credits/success?pin=${existing.pin}`);
+    }
+
+    const meta = result.data.metadata as { packId?: string };
+
+    const pack = await prisma.creditPack.findUnique({ where: { id: meta.packId } });
+    if (!pack) return NextResponse.redirect(`${appUrl}/credits?error=pack_not_found`);
+
+    // Generate unique PIN
+    let pin = generatePin();
+    let attempts = 0;
+    while (await prisma.packPurchase.findUnique({ where: { pin } }) && attempts < 10) {
+      pin = generatePin();
+      attempts++;
+    }
+
+    await prisma.packPurchase.create({
+      data: {
+        pin,
+        secondsTotal: pack.minutes * 60,
+        paystackRef: reference,
+        packId: pack.id,
+      },
+    });
+
+    return NextResponse.redirect(`${appUrl}/credits/success?pin=${pin}`);
+  } catch (err) {
+    console.error("[callback]", err);
+    return NextResponse.redirect(`${appUrl}/credits?error=verification_failed`);
+  }
+}

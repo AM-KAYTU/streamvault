@@ -1,1 +1,47 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgaW5pdGlhbGl6ZVRyYW5zYWN0aW9uIH0gZnJvbSAiQC9saWIvcGF5c3RhY2siOwppbXBvcnQgeyBwcmlzbWEgfSBmcm9tICJAL2xpYi9wcmlzbWEiOwppbXBvcnQgeyB2NCBhcyB1dWlkdjQgfSBmcm9tICJ1dWlkIjsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQT1NUKHJlcTogTmV4dFJlcXVlc3QpIHsKICB0cnkgewogICAgY29uc3QgeyBwYWNrSWQgfSA9IGF3YWl0IHJlcS5qc29uKCk7CgogICAgaWYgKCFwYWNrSWQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJwYWNrSWQgcmVxdWlyZWQiIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CgogICAgY29uc3QgcGFjayA9IGF3YWl0IHByaXNtYS5jcmVkaXRQYWNrLmZpbmRVbmlxdWUoeyB3aGVyZTogeyBpZDogcGFja0lkLCBhY3RpdmU6IHRydWUgfSB9KTsKICAgIGlmICghcGFjaykgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIkNyZWRpdCBwYWNrIG5vdCBmb3VuZCIgfSwgeyBzdGF0dXM6IDQwNCB9KTsKICAgIH0KCiAgICBjb25zdCBhcHBVcmwgPSBwcm9jZXNzLmVudi5BUFBfVVJMIHx8ICJodHRwOi8vbG9jYWxob3N0OjMwMDAiOwogICAgY29uc3QgcmVmZXJlbmNlID0gYHN2XyR7dXVpZHY0KCkucmVwbGFjZSgvLS9nLCAiIikuc2xpY2UoMCwgMTYpfWA7CiAgICBjb25zdCBhbW91bnQgPSBNYXRoLnJvdW5kKHBhY2sucHJpY2UgKiAxMDApOyAvLyBwZXNld2FzCgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgaW5pdGlhbGl6ZVRyYW5zYWN0aW9uKHsKICAgICAgZW1haWw6ICJwYXlAc3RyZWFtdmF1bHQuYXBwIiwgLy8gYW5vbnltb3VzIOKAlCB3ZSBkb24ndCBjb2xsZWN0IGVtYWlsCiAgICAgIGFtb3VudCwKICAgICAgcmVmZXJlbmNlLAogICAgICBjYWxsYmFja191cmw6IGAke2FwcFVybH0vYXBpL3BheXN0YWNrL2NhbGxiYWNrYCwKICAgICAgbWV0YWRhdGE6IHsKICAgICAgICBwYWNrSWQ6IHBhY2suaWQsCiAgICAgICAgcGFja05hbWU6IHBhY2submFtZSwKICAgICAgICBtaW51dGVzOiBwYWNrLm1pbnV0ZXMsCiAgICAgICAgY3VzdG9tX2ZpZWxkczogWwogICAgICAgICAgeyBkaXNwbGF5X25hbWU6ICJQYWNrIiwgdmFyaWFibGVfbmFtZTogInBhY2tfbmFtZSIsIHZhbHVlOiBwYWNrLm5hbWUgfSwKICAgICAgICAgIHsgZGlzcGxheV9uYW1lOiAiV2F0Y2ggVGltZSIsIHZhcmlhYmxlX25hbWU6ICJtaW51dGVzIiwgdmFsdWU6IGAke3BhY2subWludXRlc30gbWludXRlc2AgfSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgYXV0aG9yaXphdGlvbl91cmw6IHJlc3VsdC5kYXRhLmF1dGhvcml6YXRpb25fdXJsIH0pOwogIH0gY2F0Y2ggKGVycjogdW5rbm93bikgewogICAgY29uc29sZS5lcnJvcigiW3BheXN0YWNrL2luaXRpYWxpemVdIiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgeyBlcnJvcjogZXJyIGluc3RhbmNlb2YgRXJyb3IgPyBlcnIubWVzc2FnZSA6ICJTZXJ2ZXIgZXJyb3IiIH0sCiAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgKTsKICB9Cn0K"}
+import { NextRequest, NextResponse } from "next/server";
+import { initializeTransaction } from "@/lib/paystack";
+import { prisma } from "@/lib/prisma";
+import { v4 as uuidv4 } from "uuid";
+
+export async function POST(req: NextRequest) {
+  try {
+    const { packId } = await req.json();
+
+    if (!packId) {
+      return NextResponse.json({ error: "packId required" }, { status: 400 });
+    }
+
+    const pack = await prisma.creditPack.findUnique({ where: { id: packId, active: true } });
+    if (!pack) {
+      return NextResponse.json({ error: "Credit pack not found" }, { status: 404 });
+    }
+
+    const appUrl = process.env.APP_URL || "http://localhost:3000";
+    const reference = `sv_${uuidv4().replace(/-/g, "").slice(0, 16)}`;
+    const amount = Math.round(pack.price * 100); // pesewas
+
+    const result = await initializeTransaction({
+      email: "pay@streamvault.app", // anonymous — we don't collect email
+      amount,
+      reference,
+      callback_url: `${appUrl}/api/paystack/callback`,
+      metadata: {
+        packId: pack.id,
+        packName: pack.name,
+        minutes: pack.minutes,
+        custom_fields: [
+          { display_name: "Pack", variable_name: "pack_name", value: pack.name },
+          { display_name: "Watch Time", variable_name: "minutes", value: `${pack.minutes} minutes` },
+        ],
+      },
+    });
+
+    return NextResponse.json({ authorization_url: result.data.authorization_url });
+  } catch (err: unknown) {
+    console.error("[paystack/initialize]", err);
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Server error" },
+      { status: 500 }
+    );
+  }
+}

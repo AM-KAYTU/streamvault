@@ -1,1 +1,208 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CgppbnRlcmZhY2UgUGFjayB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgbWludXRlczogbnVtYmVyOwogIHByaWNlOiBudW1iZXI7CiAgcG9wdWxhcjogYm9vbGVhbjsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ3JlZGl0c0NsaWVudCh7IHBhY2tzIH06IHsgcGFja3M6IFBhY2tbXSB9KSB7CiAgY29uc3QgW3NlbGVjdGVkLCBzZXRTZWxlY3RlZF0gPSB1c2VTdGF0ZTxzdHJpbmc+KAogICAgcGFja3MuZmluZCgocCkgPT4gcC5wb3B1bGFyKT8uaWQgfHwgcGFja3NbMF0/LmlkIHx8ICIiCiAgKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3Qgc3ltYm9sID0gcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfQ1VSUkVOQ1lfU1lNQk9MIHx8ICLigrUiOwoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVCdXkoKSB7CiAgICBpZiAoIXNlbGVjdGVkKSByZXR1cm47CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgc2V0RXJyb3IoIiIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goIi9hcGkvcGF5c3RhY2svaW5pdGlhbGl6ZSIsIHsKICAgICAgICBtZXRob2Q6ICJQT1NUIiwKICAgICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHBhY2tJZDogc2VsZWN0ZWQgfSksCiAgICAgIH0pOwogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTsKICAgICAgaWYgKCFyZXMub2spIHRocm93IG5ldyBFcnJvcihkYXRhLmVycm9yIHx8ICJGYWlsZWQiKTsKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBkYXRhLmF1dGhvcml6YXRpb25fdXJsOwogICAgfSBjYXRjaCAoZXJyOiB1bmtub3duKSB7CiAgICAgIHNldEVycm9yKGVyciBpbnN0YW5jZW9mIEVycm9yID8gZXJyLm1lc3NhZ2UgOiAiU29tZXRoaW5nIHdlbnQgd3JvbmciKTsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfQoKICBpZiAocGFja3MubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIG1iLTIiPk5vIFBhY2tzIEF2YWlsYWJsZTwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQiPkNoZWNrIGJhY2sgc29vbi48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIGNvbnN0IHNlbGVjdGVkUGFjayA9IHBhY2tzLmZpbmQoKHApID0+IHAuaWQgPT09IHNlbGVjdGVkKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy00eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCBweS0xNiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi0xMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBiZy1nb2xkLzEwIGJvcmRlciBib3JkZXItZ29sZC8zMCB0ZXh0LWdvbGQgdGV4dC1zbSBweC00IHB5LTEuNSByb3VuZGVkLWZ1bGwgbWItNCI+CiAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy00IGgtNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNMTIgOHY0bDMgM202LTNhOSA5IDAgMTEtMTggMCA5IDkgMCAwMTE4IDB6IiAvPgogICAgICAgICAgPC9zdmc+CiAgICAgICAgICBXYXRjaCBUaW1lIFBhY2tzCiAgICAgICAgPC9kaXY+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC00eGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIG1iLTMiPgogICAgICAgICAgQnV5IE1pbnV0ZXMsPGJyIC8+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ29sZCI+V2F0Y2ggQW55dGhpbmc8L3NwYW4+CiAgICAgICAgPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQgdGV4dC1sZyBtYXgtdy14bCBteC1hdXRvIj4KICAgICAgICAgIFB1cmNoYXNlIGEgdGltZSBwYWNrIGFuZCB3YXRjaCBhbnkgdmlkZW8gdW50aWwgeW91ciBtaW51dGVzIHJ1biBvdXQuCiAgICAgICAgICBObyBhY2NvdW50cywgbm8gZW1haWwg4oCUIGp1c3QgeW91ciBQSU4uCiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGdhcC0xMCBpdGVtcy1zdGFydCI+CiAgICAgICAgey8qIFBhY2sgc2VsZWN0aW9uICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAge3BhY2tzLm1hcCgocGFjaykgPT4gKAogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAga2V5PXtwYWNrLmlkfQogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFNlbGVjdGVkKHBhY2suaWQpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCB0ZXh0LWxlZnQgcC01IHJvdW5kZWQtMnhsIGJvcmRlci0yIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCByZWxhdGl2ZSAkewogICAgICAgICAgICAgICAgc2VsZWN0ZWQgPT09IHBhY2suaWQKICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLWdvbGQgYmctZ29sZC81IgogICAgICAgICAgICAgICAgICA6ICJib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgaG92ZXI6Ym9yZGVyLWdvbGQvNDAiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7cGFjay5wb3B1bGFyICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTIuNSBsZWZ0LTQgYmFkZ2UgYmctZ29sZCB0ZXh0LWJsYWNrIHRleHQtWzEwcHhdIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSI+CiAgICAgICAgICAgICAgICAgIE1vc3QgUG9wdWxhcgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtd2hpdGUgdGV4dC1sZyI+e3BhY2submFtZX08L3A+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBtdC0xIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtZ29sZCB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNCBoLTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTEyIDh2NGwzIDNtNi0zYTkgOSAwIDExLTE4IDAgOSA5IDAgMDExOCAweiIgLz4KICAgICAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgICAgICAge3BhY2subWludXRlc30gbWludXRlcwogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtZ29sZCI+CiAgICAgICAgICAgICAgICAgICAge3N5bWJvbH17cGFjay5wcmljZS50b0xvY2FsZVN0cmluZygpfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgdy01IGgtNSByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hyaW5rLTAgdHJhbnNpdGlvbi1hbGwgJHsKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9PT0gcGFjay5pZCA/ICJib3JkZXItZ29sZCBiZy1nb2xkIiA6ICJib3JkZXItZ3JheS02MDAiCiAgICAgICAgICAgICAgICAgIH1gfT4KICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQgPT09IHBhY2suaWQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctMyBoLTMgdGV4dC1ibGFjayIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRsLTggOGExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDExLjQxNC0xLjQxNEw4IDEyLjU4Nmw3LjI5My03LjI5M2ExIDEgMCAwMTEuNDE0IDB6IiAvPgogICAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApKX0KCiAgICAgICAgICB7LyogSG93IGl0IHdvcmtzICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXN1cmZhY2UtcmFpc2VkIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtMnhsIHAtNSBtdC00Ij4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBtYi0zIj5Ib3cgaXQgd29ya3M8L3A+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiB0ZXh0LXNtIHRleHQtZ3JheS00MDAiPgogICAgICAgICAgICAgIHtbCiAgICAgICAgICAgICAgICAiQ2hvb3NlIGEgdGltZSBwYWNrIGFuZCBwYXkgc2VjdXJlbHkgdmlhIFBheXN0YWNrIiwKICAgICAgICAgICAgICAgICJHZXQgYSB1bmlxdWUgNi1jaGFyYWN0ZXIgUElOIGluc3RhbnRseSIsCiAgICAgICAgICAgICAgICAiU2F2ZSB5b3VyIFBJTiDigJQgdXNlIGl0IG9uIGFueSBkZXZpY2UiLAogICAgICAgICAgICAgICAgIldhdGNoIGFueSB2aWRlbzsgdGltZSBkZWR1Y3RzIGFzIHlvdSB3YXRjaCIsCiAgICAgICAgICAgICAgICAiQnV5IGFub3RoZXIgcGFjayB3aGVuIHlvdXJzIHJ1bnMgb3V0IiwKICAgICAgICAgICAgICBdLm1hcCgoc3RlcCwgaSkgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17aX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yLjUiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctNSBoLTUgcm91bmRlZC1mdWxsIGJnLWdvbGQvMTAgdGV4dC1nb2xkIHRleHQteHMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hyaW5rLTAgZm9udC1ib2xkIG10LTAuNSI+CiAgICAgICAgICAgICAgICAgICAge2kgKyAxfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIHtzdGVwfQogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogQ2hlY2tvdXQgcGFuZWwgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXN1cmZhY2UgYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC0yeGwgcC03IGxnOnN0aWNreSBsZzp0b3AtMjQiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQgbWItNiI+T3JkZXIgU3VtbWFyeTwvaDI+CgogICAgICAgICAge3NlbGVjdGVkUGFjayAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1zdXJmYWNlLWhpZ2ggcm91bmRlZC14bCBwLTQgbWItNiBzcGFjZS15LTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1ncmF5LTQwMCI+UGFjazwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC13aGl0ZSBmb250LW1lZGl1bSI+e3NlbGVjdGVkUGFjay5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gdGV4dC1zbSI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS00MDAiPldhdGNoIHRpbWU8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ29sZCBmb250LWJvbGQiPntzZWxlY3RlZFBhY2subWludXRlc30gbWludXRlczwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC0yIGZsZXgganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIj5Ub3RhbDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1nb2xkIGZvbnQtYm9sZCB0ZXh0LWxnIj4KICAgICAgICAgICAgICAgICAge3N5bWJvbH17c2VsZWN0ZWRQYWNrLnByaWNlLnRvTG9jYWxlU3RyaW5nKCl9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctZ29sZC81IGJvcmRlciBib3JkZXItZ29sZC8yMCByb3VuZGVkLXhsIHAtNCBtYi02IGZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LWdvbGQgc2hyaW5rLTAgbXQtMC41IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTE1IDdhMiAyIDAgMDEyIDJtNCAwYTYgNiAwIDAxLTcuNzQzIDUuNzQzTDExIDE3SDl2Mkg3djJINGExIDEgMCAwMS0xLTF2LTIuNTg2YTEgMSAwIDAxLjI5My0uNzA3bDUuOTY0LTUuOTY0QTYgNiAwIDExMjEgOXoiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTMwMCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWdvbGQgZm9udC1zZW1pYm9sZCI+WW91ciBQSU4gaXMgeW91ciBhY2Nlc3Mga2V5Ljwvc3Bhbj57IiAifQogICAgICAgICAgICAgIE5vIGFjY291bnQgb3IgZW1haWwgbmVlZGVkLiBXZSZhcG9zO2xsIHNob3cgaXQgdG8geW91IHJpZ2h0IGFmdGVyIHBheW1lbnQg4oCUIHNhdmUgaXQgc29tZXdoZXJlIHNhZmUuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHtlcnJvciAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IGJnLXJlZC01MDAvMTAgYm9yZGVyIGJvcmRlci1yZWQtNTAwLzMwIHJvdW5kZWQtbGcgcHgtNCBweS0zIHRleHQtcmVkLTQwMCB0ZXh0LXNtIj4KICAgICAgICAgICAgICB7ZXJyb3J9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUJ1eX0KICAgICAgICAgICAgZGlzYWJsZWQ9e2xvYWRpbmcgfHwgIXNlbGVjdGVkfQogICAgICAgICAgICBjbGFzc05hbWU9ImJ0bi1nb2xkIHctZnVsbCBweS00IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHRleHQtYmFzZSIKICAgICAgICAgID4KICAgICAgICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IGFuaW1hdGUtc3BpbiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgICAgICAgICAgICAgICAgPGNpcmNsZSBjbGFzc05hbWU9Im9wYWNpdHktMjUiIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSI0IiAvPgogICAgICAgICAgICAgICAgICA8cGF0aCBjbGFzc05hbWU9Im9wYWNpdHktNzUiIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgMTJhOCA4IDAgMDE4LThWMEM1LjM3MyAwIDAgNS4zNzMgMCAxMmg0eiIgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgUmVkaXJlY3RpbmcgdG8gUGF5c3RhY2suLi4KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNSBoLTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTE3IDlWN2EyIDIgMCAwMC0yLTJINWEyIDIgMCAwMC0yIDJ2NmEyIDIgMCAwMDIgMmgybTIgNGgxMGEyIDIgMCAwMDItMnYtNmEyIDIgMCAwMC0yLTJIOWEyIDIgMCAwMC0yIDJ2NmEyIDIgMCAwMDIgMnptNy01YTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHoiIC8+CiAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgIFBheSB3aXRoIFBheXN0YWNrCiAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgdGV4dC14cyB0ZXh0LWdyYXktNjAwIG10LTMiPvCflJIgU2VjdXJlIMK3IEFub255bW91cyDCtyBObyBhY2NvdW50IG5lZWRlZDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+
+import { useState } from "react";
+
+interface Pack {
+  id: string;
+  name: string;
+  minutes: number;
+  price: number;
+  popular: boolean;
+}
+
+export default function CreditsClient({ packs }: { packs: Pack[] }) {
+  const [selected, setSelected] = useState<string>(
+    packs.find((p) => p.popular)?.id || packs[0]?.id || ""
+  );
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const symbol = process.env.NEXT_PUBLIC_CURRENCY_SYMBOL || "₵";
+
+  async function handleBuy() {
+    if (!selected) return;
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch("/api/paystack/initialize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ packId: selected }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed");
+      window.location.href = data.authorization_url;
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Something went wrong");
+      setLoading(false);
+    }
+  }
+
+  if (packs.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold mb-2">No Packs Available</h1>
+          <p className="text-muted">Check back soon.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const selectedPack = packs.find((p) => p.id === selected);
+
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="text-center mb-12">
+        <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 text-gold text-sm px-4 py-1.5 rounded-full mb-4">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Watch Time Packs
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold mb-3">
+          Buy Minutes,<br />
+          <span className="text-gold">Watch Anything</span>
+        </h1>
+        <p className="text-muted text-lg max-w-xl mx-auto">
+          Purchase a time pack and watch any video until your minutes run out.
+          No accounts, no email — just your PIN.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        {/* Pack selection */}
+        <div className="space-y-3">
+          {packs.map((pack) => (
+            <button
+              key={pack.id}
+              onClick={() => setSelected(pack.id)}
+              className={`w-full text-left p-5 rounded-2xl border-2 transition-all duration-200 relative ${
+                selected === pack.id
+                  ? "border-gold bg-gold/5"
+                  : "border-border bg-surface hover:border-gold/40"
+              }`}
+            >
+              {pack.popular && (
+                <div className="absolute -top-2.5 left-4 badge bg-gold text-black text-[10px] font-bold uppercase tracking-wide">
+                  Most Popular
+                </div>
+              )}
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-white text-lg">{pack.name}</p>
+                  <div className="flex items-center gap-3 mt-1">
+                    <span className="flex items-center gap-1 text-gold text-sm font-semibold">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {pack.minutes} minutes
+                    </span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl font-bold text-gold">
+                    {symbol}{pack.price.toLocaleString()}
+                  </span>
+                  <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
+                    selected === pack.id ? "border-gold bg-gold" : "border-gray-600"
+                  }`}>
+                    {selected === pack.id && (
+                      <svg className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                      </svg>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </button>
+          ))}
+
+          {/* How it works */}
+          <div className="bg-surface-raised border border-border rounded-2xl p-5 mt-4">
+            <p className="text-sm font-semibold text-white mb-3">How it works</p>
+            <ul className="space-y-2 text-sm text-gray-400">
+              {[
+                "Choose a time pack and pay securely via Paystack",
+                "Get a unique 6-character PIN instantly",
+                "Save your PIN — use it on any device",
+                "Watch any video; time deducts as you watch",
+                "Buy another pack when yours runs out",
+              ].map((step, i) => (
+                <li key={i} className="flex items-start gap-2.5">
+                  <span className="w-5 h-5 rounded-full bg-gold/10 text-gold text-xs flex items-center justify-center shrink-0 font-bold mt-0.5">
+                    {i + 1}
+                  </span>
+                  {step}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Checkout panel */}
+        <div className="bg-surface border border-border rounded-2xl p-7 lg:sticky lg:top-24">
+          <h2 className="text-xl font-bold mb-6">Order Summary</h2>
+
+          {selectedPack && (
+            <div className="bg-surface-high rounded-xl p-4 mb-6 space-y-2">
+              <div className="flex justify-between text-sm">
+                <span className="text-gray-400">Pack</span>
+                <span className="text-white font-medium">{selectedPack.name}</span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-gray-400">Watch time</span>
+                <span className="text-gold font-bold">{selectedPack.minutes} minutes</span>
+              </div>
+              <div className="border-t border-border pt-2 flex justify-between">
+                <span className="font-semibold text-white">Total</span>
+                <span className="text-gold font-bold text-lg">
+                  {symbol}{selectedPack.price.toLocaleString()}
+                </span>
+              </div>
+            </div>
+          )}
+
+          <div className="bg-gold/5 border border-gold/20 rounded-xl p-4 mb-6 flex items-start gap-3">
+            <svg className="w-5 h-5 text-gold shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+            </svg>
+            <p className="text-sm text-gray-300">
+              <span className="text-gold font-semibold">Your PIN is your access key.</span>{" "}
+              No account or email needed. We&apos;ll show it to you right after payment — save it somewhere safe.
+            </p>
+          </div>
+
+          {error && (
+            <div className="mb-4 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-3 text-red-400 text-sm">
+              {error}
+            </div>
+          )}
+
+          <button
+            onClick={handleBuy}
+            disabled={loading || !selected}
+            className="btn-gold w-full py-4 flex items-center justify-center gap-2 text-base"
+          >
+            {loading ? (
+              <>
+                <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                </svg>
+                Redirecting to Paystack...
+              </>
+            ) : (
+              <>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                Pay with Paystack
+              </>
+            )}
+          </button>
+          <p className="text-center text-xs text-gray-600 mt-3">🔒 Secure · Anonymous · No account needed</p>
+        </div>
+      </div>
+    </div>
+  );
+}

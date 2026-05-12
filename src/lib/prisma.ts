@@ -1,1 +1,9 @@
-{"data":"aW1wb3J0IHsgUHJpc21hQ2xpZW50IH0gZnJvbSAiQHByaXNtYS9jbGllbnQiOwoKY29uc3QgZ2xvYmFsRm9yUHJpc21hID0gZ2xvYmFsVGhpcyBhcyB1bmtub3duIGFzIHsgcHJpc21hOiBQcmlzbWFDbGllbnQgfTsKCmV4cG9ydCBjb25zdCBwcmlzbWEgPQogIGdsb2JhbEZvclByaXNtYS5wcmlzbWEgPz8KICBuZXcgUHJpc21hQ2xpZW50KHsgbG9nOiBwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gImRldmVsb3BtZW50IiA/IFsiZXJyb3IiXSA6IFtdIH0pOwoKaWYgKHByb2Nlc3MuZW52Lk5PREVfRU5WICE9PSAicHJvZHVjdGlvbiIpIGdsb2JhbEZvclByaXNtYS5wcmlzbWEgPSBwcmlzbWE7Cg=="}
+import { PrismaClient } from "@prisma/client";
+
+const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
+
+export const prisma =
+  globalForPrisma.prisma ??
+  new PrismaClient({ log: process.env.NODE_ENV === "development" ? ["error"] : [] });
+
+if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;

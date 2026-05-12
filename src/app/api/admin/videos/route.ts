@@ -1,1 +1,62 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgdmVyaWZ5QWRtaW5Ub2tlbiB9IGZyb20gIkAvbGliL3Rva2VucyI7CmltcG9ydCB7IHByaXNtYSB9IGZyb20gIkAvbGliL3ByaXNtYSI7CmltcG9ydCB7IGNvb2tpZXMgfSBmcm9tICJuZXh0L2hlYWRlcnMiOwoKYXN5bmMgZnVuY3Rpb24gaXNBZG1pbigpIHsKICBjb25zdCBjb29raWVTdG9yZSA9IGF3YWl0IGNvb2tpZXMoKTsKICBjb25zdCB0b2tlbiA9IGNvb2tpZVN0b3JlLmdldCgiYWRtaW5fdG9rZW4iKT8udmFsdWU7CiAgcmV0dXJuICEhdG9rZW4gJiYgKGF3YWl0IHZlcmlmeUFkbWluVG9rZW4odG9rZW4pKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVCgpIHsKICBpZiAoIShhd2FpdCBpc0FkbWluKCkpKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlVuYXV0aG9yaXplZCIgfSwgeyBzdGF0dXM6IDQwMSB9KTsKICBjb25zdCB2aWRlb3MgPSBhd2FpdCBwcmlzbWEudmlkZW8uZmluZE1hbnkoewogICAgb3JkZXJCeTogeyBjcmVhdGVkQXQ6ICJkZXNjIiB9LAogICAgaW5jbHVkZTogeyBfY291bnQ6IHsgc2VsZWN0OiB7IHdhdGNoRXZlbnRzOiB0cnVlIH0gfSB9LAogIH0pOwogIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih2aWRlb3MpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gUE9TVChyZXE6IE5leHRSZXF1ZXN0KSB7CiAgaWYgKCEoYXdhaXQgaXNBZG1pbigpKSkgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJVbmF1dGhvcml6ZWQiIH0sIHsgc3RhdHVzOiA0MDEgfSk7CiAgY29uc3QgeyB0aXRsZSwgZGVzY3JpcHRpb24sIHRodW1ibmFpbCwgdmlkZW9VcmwsIGNhdGVnb3J5LCBkdXJhdGlvbiwgZmVhdHVyZWQsIHB1Ymxpc2hlZCB9ID0gYXdhaXQgcmVxLmpzb24oKTsKICBpZiAoIXRpdGxlIHx8ICF2aWRlb1VybCB8fCAhdGh1bWJuYWlsKSB7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogInRpdGxlLCB2aWRlb1VybCwgYW5kIHRodW1ibmFpbCBhcmUgcmVxdWlyZWQiIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgfQogIGNvbnN0IHZpZGVvID0gYXdhaXQgcHJpc21hLnZpZGVvLmNyZWF0ZSh7CiAgICBkYXRhOiB7CiAgICAgIHRpdGxlLAogICAgICBkZXNjcmlwdGlvbjogZGVzY3JpcHRpb24gfHwgIiIsCiAgICAgIHRodW1ibmFpbCwKICAgICAgdmlkZW9VcmwsCiAgICAgIGNhdGVnb3J5OiBjYXRlZ29yeSB8fCBudWxsLAogICAgICBkdXJhdGlvbjogZHVyYXRpb24gPyBOdW1iZXIoZHVyYXRpb24pIDogbnVsbCwKICAgICAgZmVhdHVyZWQ6IEJvb2xlYW4oZmVhdHVyZWQpLAogICAgICBwdWJsaXNoZWQ6IHB1Ymxpc2hlZCAhPT0gZmFsc2UsCiAgICB9LAogIH0pOwogIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih2aWRlbywgeyBzdGF0dXM6IDIwMSB9KTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBVVChyZXE6IE5leHRSZXF1ZXN0KSB7CiAgaWYgKCEoYXdhaXQgaXNBZG1pbigpKSkgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJVbmF1dGhvcml6ZWQiIH0sIHsgc3RhdHVzOiA0MDEgfSk7CiAgY29uc3QgeyBpZCwgLi4ucmVzdCB9ID0gYXdhaXQgcmVxLmpzb24oKTsKICBpZiAoIWlkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogImlkIHJlcXVpcmVkIiB9LCB7IHN0YXR1czogNDAwIH0pOwogIGNvbnN0IHZpZGVvID0gYXdhaXQgcHJpc21hLnZpZGVvLnVwZGF0ZSh7CiAgICB3aGVyZTogeyBpZCB9LAogICAgZGF0YTogewogICAgICAuLi5yZXN0LAogICAgICBkdXJhdGlvbjogcmVzdC5kdXJhdGlvbiAhPT0gdW5kZWZpbmVkID8gTnVtYmVyKHJlc3QuZHVyYXRpb24pIDogdW5kZWZpbmVkLAogICAgfSwKICB9KTsKICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24odmlkZW8pOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gREVMRVRFKHJlcTogTmV4dFJlcXVlc3QpIHsKICBpZiAoIShhd2FpdCBpc0FkbWluKCkpKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIlVuYXV0aG9yaXplZCIgfSwgeyBzdGF0dXM6IDQwMSB9KTsKICBjb25zdCBpZCA9IG5ldyBVUkwocmVxLnVybCkuc2VhcmNoUGFyYW1zLmdldCgiaWQiKTsKICBpZiAoIWlkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogImlkIHJlcXVpcmVkIiB9LCB7IHN0YXR1czogNDAwIH0pOwogIGF3YWl0IHByaXNtYS52aWRlby5kZWxldGUoeyB3aGVyZTogeyBpZCB9IH0pOwogIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IG9rOiB0cnVlIH0pOwp9Cg=="}
+import { NextRequest, NextResponse } from "next/server";
+import { verifyAdminToken } from "@/lib/tokens";
+import { prisma } from "@/lib/prisma";
+import { cookies } from "next/headers";
+
+async function isAdmin() {
+  const cookieStore = await cookies();
+  const token = cookieStore.get("admin_token")?.value;
+  return !!token && (await verifyAdminToken(token));
+}
+
+export async function GET() {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const videos = await prisma.video.findMany({
+    orderBy: { createdAt: "desc" },
+    include: { _count: { select: { watchEvents: true } } },
+  });
+  return NextResponse.json(videos);
+}
+
+export async function POST(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { title, description, thumbnail, cfVideoId, category, duration, featured, published } = await req.json();
+  if (!title || !cfVideoId || !thumbnail) {
+    return NextResponse.json({ error: "title, cfVideoId, and thumbnail are required" }, { status: 400 });
+  }
+  const video = await prisma.video.create({
+    data: {
+      title,
+      description: description || "",
+      thumbnail,
+      cfVideoId,
+      category: category || null,
+      duration: duration ? Number(duration) : null,
+      featured: Boolean(featured),
+      published: published !== false,
+    },
+  });
+  return NextResponse.json(video, { status: 201 });
+}
+
+export async function PUT(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { id, ...rest } = await req.json();
+  if (!id) return NextResponse.json({ error: "id required" }, { status: 400 });
+  const video = await prisma.video.update({
+    where: { id },
+    data: {
+      ...rest,
+      duration: rest.duration !== undefined ? Number(rest.duration) : undefined,
+    },
+  });
+  return NextResponse.json(video);
+}
+
+export async function DELETE(req: NextRequest) {
+  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const id = new URL(req.url).searchParams.get("id");
+  if (!id) return NextResponse.json({ error: "id required" }, { status: 400 });
+  await prisma.video.delete({ where: { id } });
+  return NextResponse.json({ ok: true });
+}

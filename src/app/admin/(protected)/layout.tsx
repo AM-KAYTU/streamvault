@@ -1,1 +1,24 @@
-{"data":"aW1wb3J0IHsgY29va2llcyB9IGZyb20gIm5leHQvaGVhZGVycyI7CmltcG9ydCB7IHZlcmlmeUFkbWluVG9rZW4gfSBmcm9tICJAL2xpYi90b2tlbnMiOwppbXBvcnQgeyByZWRpcmVjdCB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCBBZG1pblNpZGViYXIgZnJvbSAiLi9BZG1pblNpZGViYXIiOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gQWRtaW5Qcm90ZWN0ZWRMYXlvdXQoewogIGNoaWxkcmVuLAp9OiB7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKfSkgewogIGNvbnN0IGNvb2tpZVN0b3JlID0gYXdhaXQgY29va2llcygpOwogIGNvbnN0IHRva2VuID0gY29va2llU3RvcmUuZ2V0KCJhZG1pbl90b2tlbiIpPy52YWx1ZTsKCiAgaWYgKCF0b2tlbiB8fCAhKGF3YWl0IHZlcmlmeUFkbWluVG9rZW4odG9rZW4pKSkgewogICAgcmVkaXJlY3QoIi9hZG1pbi9sb2dpbiIpOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLXNjcmVlbiIgc3R5bGU9e3sgYmFja2dyb3VuZDogIiMwYTBhMGEiIH19PgogICAgICA8QWRtaW5TaWRlYmFyIC8+CiAgICAgIDxtYWluIGNsYXNzTmFtZT0iZmxleC0xIHAtOCBtbC02NCBtaW4taC1zY3JlZW4iPntjaGlsZHJlbn08L21haW4+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+import { cookies } from "next/headers";
+import { verifyAdminToken } from "@/lib/tokens";
+import { redirect } from "next/navigation";
+import AdminSidebar from "./AdminSidebar";
+
+export default async function AdminProtectedLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const cookieStore = await cookies();
+  const token = cookieStore.get("admin_token")?.value;
+
+  if (!token || !(await verifyAdminToken(token))) {
+    redirect("/admin/login");
+  }
+
+  return (
+    <div className="flex min-h-screen" style={{ background: "#0a0a0a" }}>
+      <AdminSidebar />
+      <main className="flex-1 p-8 ml-64 min-h-screen">{children}</main>
+    </div>
+  );
+}

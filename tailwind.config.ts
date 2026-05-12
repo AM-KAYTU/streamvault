@@ -1,1 +1,35 @@
-{"data":"aW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICJ0YWlsd2luZGNzcyI7Cgpjb25zdCBjb25maWc6IENvbmZpZyA9IHsKICBjb250ZW50OiBbCiAgICAiLi9zcmMvcGFnZXMvKiovKi57anMsdHMsanN4LHRzeCxtZHh9IiwKICAgICIuL3NyYy9jb21wb25lbnRzLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fSIsCiAgICAiLi9zcmMvYXBwLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fSIsCiAgXSwKICB0aGVtZTogewogICAgZXh0ZW5kOiB7CiAgICAgIGNvbG9yczogewogICAgICAgIGdvbGQ6IHsKICAgICAgICAgIERFRkFVTFQ6ICIjZjVhNjIzIiwKICAgICAgICAgIGxpZ2h0OiAiI2ZiYmY0YSIsCiAgICAgICAgICBkYXJrOiAiI2Q0OGMxYSIsCiAgICAgICAgfSwKICAgICAgICBzdXJmYWNlOiB7CiAgICAgICAgICBERUZBVUxUOiAiIzExMTExMSIsCiAgICAgICAgICByYWlzZWQ6ICIjMWExYTFhIiwKICAgICAgICAgIGhpZ2g6ICIjMjIyMjIyIiwKICAgICAgICB9LAogICAgICAgIGJvcmRlcjogIiMyYTJhMmEiLAogICAgICB9LAogICAgICBmb250RmFtaWx5OiB7CiAgICAgICAgc2FuczogWyJJbnRlciIsICJzeXN0ZW0tdWkiLCAic2Fucy1zZXJpZiJdLAogICAgICB9LAogICAgICBiYWNrZ3JvdW5kSW1hZ2U6IHsKICAgICAgICAiZ3JhZGllbnQtcmFkaWFsIjogInJhZGlhbC1ncmFkaWVudCh2YXIoLS10dy1ncmFkaWVudC1zdG9wcykpIiwKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbXSwKfTsKCmV4cG9ydCBkZWZhdWx0IGNvbmZpZzsK"}
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        gold: {
+          DEFAULT: "#f5a623",
+          light: "#fbbf4a",
+          dark: "#d48c1a",
+        },
+        surface: {
+          DEFAULT: "#111111",
+          raised: "#1a1a1a",
+          high: "#222222",
+        },
+        border: "#2a2a2a",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;

@@ -1,1 +1,13 @@
-{"data":"Y29uc3QgQ0hBUlMgPSAiQUJDREVGR0hKS0xNTlBRUlNUVVZXWFlaMjM0NTY3ODkiOyAvLyBubyAwL08vMS9JIGNvbmZ1c2lvbgoKZXhwb3J0IGZ1bmN0aW9uIGdlbmVyYXRlUGluKCk6IHN0cmluZyB7CiAgbGV0IHBpbiA9ICIiOwogIGZvciAobGV0IGkgPSAwOyBpIDwgNjsgaSsrKSB7CiAgICBwaW4gKz0gQ0hBUlNbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogQ0hBUlMubGVuZ3RoKV07CiAgfQogIHJldHVybiBwaW47Cn0KCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRQaW4ocGluOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBgJHtwaW4uc2xpY2UoMCwgMyl9LSR7cGluLnNsaWNlKDMpfWA7Cn0K"}
+const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // no 0/O/1/I confusion
+
+export function generatePin(): string {
+  let pin = "";
+  for (let i = 0; i < 6; i++) {
+    pin += CHARS[Math.floor(Math.random() * CHARS.length)];
+  }
+  return pin;
+}
+
+export function formatPin(pin: string): string {
+  return `${pin.slice(0, 3)}-${pin.slice(3)}`;
+}

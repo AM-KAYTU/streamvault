@@ -1,1 +1,12 @@
-{"data":"Cgpjb25zdCBuZXh0Q29uZmlnID0gewogIGltYWdlczogewogICAgcmVtb3RlUGF0dGVybnM6IFsKICAgICAgeyBwcm90b2NvbDogImh0dHBzIiwgaG9zdG5hbWU6ICIqKiIgfSwKICAgICAgeyBwcm90b2NvbDogImh0dHAiLCBob3N0bmFtZTogIioqIiB9LAogICAgXSwKICB9LAp9OwoKZXhwb3J0IGRlZmF1bHQgbmV4dENvbmZpZzsK"}
+
+
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "**" },
+      { protocol: "http", hostname: "**" },
+    ],
+  },
+};
+
+export default nextConfig;

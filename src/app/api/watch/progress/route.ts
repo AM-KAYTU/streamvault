@@ -1,1 +1,51 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgcHJpc21hIH0gZnJvbSAiQC9saWIvcHJpc21hIjsKCi8vIENhbGxlZCBldmVyeSAxNXMgZHVyaW5nIHBsYXliYWNrIOKAlCBkZWR1Y3RzIHdhdGNoIHRpbWUgZnJvbSBQSU4gYmFsYW5jZQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gUE9TVChyZXE6IE5leHRSZXF1ZXN0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgdmlkZW9JZCwgcGluOiByYXdQaW4sIHNlY29uZHMgfSA9IGF3YWl0IHJlcS5qc29uKCk7CiAgICBjb25zdCBwaW4gPSByYXdQaW4/LnRvVXBwZXJDYXNlKCkucmVwbGFjZSgvLS9nLCAiIik7CiAgICBpZiAoIXZpZGVvSWQgfHwgIXBpbiB8fCAhc2Vjb25kcykgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IGZhbHNlIH0pOwoKICAgIC8vIEF0b21pY2FsbHkgZGVkdWN0IHNlY29uZHMg4oCUIG5ldmVyIGdvIGJlbG93IDAKICAgIGNvbnN0IHB1cmNoYXNlID0gYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS5maW5kVW5pcXVlKHsgd2hlcmU6IHsgcGluIH0gfSk7CiAgICBpZiAoIXB1cmNoYXNlKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogZmFsc2UsIGVycm9yOiAiSW52YWxpZCBQSU4iIH0pOwoKICAgIGNvbnN0IHNlY29uZHNMZWZ0ID0gcHVyY2hhc2Uuc2Vjb25kc1RvdGFsIC0gcHVyY2hhc2Uuc2Vjb25kc1VzZWQ7CiAgICBpZiAoc2Vjb25kc0xlZnQgPD0gMCkgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSwgc2Vjb25kc0xlZnQ6IDAsIG1pbnV0ZXNMZWZ0OiAwLCBleGhhdXN0ZWQ6IHRydWUgfSk7CiAgICB9CgogICAgY29uc3QgdG9EZWR1Y3QgPSBNYXRoLm1pbihzZWNvbmRzLCBzZWNvbmRzTGVmdCk7CiAgICBjb25zdCB1cGRhdGVkID0gYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS51cGRhdGUoewogICAgICB3aGVyZTogeyBwaW4gfSwKICAgICAgZGF0YTogeyBzZWNvbmRzVXNlZDogeyBpbmNyZW1lbnQ6IHRvRGVkdWN0IH0gfSwKICAgIH0pOwoKICAgIGNvbnN0IG5ld1NlY29uZHNMZWZ0ID0gdXBkYXRlZC5zZWNvbmRzVG90YWwgLSB1cGRhdGVkLnNlY29uZHNVc2VkOwoKICAgIC8vIFVwZGF0ZSB3YXRjaCBldmVudCBsb2cKICAgIGNvbnN0IGV2ZW50SWQgPSBgJHt2aWRlb0lkfV8ke3Bpbn1gOwogICAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBwcmlzbWEud2F0Y2hFdmVudC5maW5kVW5pcXVlKHsgd2hlcmU6IHsgaWQ6IGV2ZW50SWQgfSB9KTsKICAgIGlmIChleGlzdGluZykgewogICAgICBhd2FpdCBwcmlzbWEud2F0Y2hFdmVudC51cGRhdGUoewogICAgICAgIHdoZXJlOiB7IGlkOiBldmVudElkIH0sCiAgICAgICAgZGF0YTogeyB3YXRjaFNlY29uZHM6IHsgaW5jcmVtZW50OiB0b0RlZHVjdCB9IH0sCiAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgYXdhaXQgcHJpc21hLndhdGNoRXZlbnQuY3JlYXRlKHsKICAgICAgICBkYXRhOiB7IGlkOiBldmVudElkLCB2aWRlb0lkLCBwaW4sIHdhdGNoU2Vjb25kczogdG9EZWR1Y3QgfSwKICAgICAgfSk7CiAgICB9CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsKICAgICAgb2s6IHRydWUsCiAgICAgIHNlY29uZHNMZWZ0OiBuZXdTZWNvbmRzTGVmdCwKICAgICAgbWludXRlc0xlZnQ6IE1hdGguZmxvb3IobmV3U2Vjb25kc0xlZnQgLyA2MCksCiAgICAgIGV4aGF1c3RlZDogbmV3U2Vjb25kc0xlZnQgPD0gMCwKICAgIH0pOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IGZhbHNlIH0pOwogIH0KfQo="}
+import { NextRequest, NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
+
+// Called every 15s during playback — deducts watch time from PIN balance
+export async function POST(req: NextRequest) {
+  try {
+    const { videoId, pin: rawPin, seconds } = await req.json();
+    const pin = rawPin?.toUpperCase().replace(/-/g, "");
+    if (!videoId || !pin || !seconds) return NextResponse.json({ ok: false });
+
+    // Atomically deduct seconds — never go below 0
+    const purchase = await prisma.packPurchase.findUnique({ where: { pin } });
+    if (!purchase) return NextResponse.json({ ok: false, error: "Invalid PIN" });
+
+    const secondsLeft = purchase.secondsTotal - purchase.secondsUsed;
+    if (secondsLeft <= 0) {
+      return NextResponse.json({ ok: true, secondsLeft: 0, minutesLeft: 0, exhausted: true });
+    }
+
+    const toDeduct = Math.min(seconds, secondsLeft);
+    const updated = await prisma.packPurchase.update({
+      where: { pin },
+      data: { secondsUsed: { increment: toDeduct } },
+    });
+
+    const newSecondsLeft = updated.secondsTotal - updated.secondsUsed;
+
+    // Update watch event log
+    const eventId = `${videoId}_${pin}`;
+    const existing = await prisma.watchEvent.findUnique({ where: { id: eventId } });
+    if (existing) {
+      await prisma.watchEvent.update({
+        where: { id: eventId },
+        data: { watchSeconds: { increment: toDeduct } },
+      });
+    } else {
+      await prisma.watchEvent.create({
+        data: { id: eventId, videoId, pin, watchSeconds: toDeduct },
+      });
+    }
+
+    return NextResponse.json({
+      ok: true,
+      secondsLeft: newSecondsLeft,
+      minutesLeft: Math.floor(newSecondsLeft / 60),
+      exhausted: newSecondsLeft <= 0,
+    });
+  } catch {
+    return NextResponse.json({ ok: false });
+  }
+}

@@ -1,1 +1,52 @@
-{"data":"aW1wb3J0IHsgU2lnbkpXVCwgand0VmVyaWZ5IH0gZnJvbSAiam9zZSI7Cgpjb25zdCBzZWNyZXQgPSBuZXcgVGV4dEVuY29kZXIoKS5lbmNvZGUoCiAgcHJvY2Vzcy5lbnYuVE9LRU5fU0VDUkVUIHx8ICJmYWxsYmFjay1zZWNyZXQtY2hhbmdlLWluLXByb2R1Y3Rpb24iCik7Cgpjb25zdCBBRE1JTl9TRUNSRVQgPSBuZXcgVGV4dEVuY29kZXIoKS5lbmNvZGUoCiAgcHJvY2Vzcy5lbnYuQURNSU5fSldUX1NFQ1JFVCB8fCAiZmFsbGJhY2stYWRtaW4tc2VjcmV0LWNoYW5nZS1pbi1wcm9kdWN0aW9uIgopOwoKZXhwb3J0IGludGVyZmFjZSBXYXRjaFRva2VuUGF5bG9hZCB7CiAgdmlkZW9JZDogc3RyaW5nIHwgbnVsbDsgLy8gbnVsbCA9IHN1YnNjcmlwdGlvbiAoYWxsIHZpZGVvcykKICBlbWFpbDogc3RyaW5nOwogIHR5cGU6ICJzaW5nbGUiIHwgInN1YnNjcmlwdGlvbiI7CiAgcHVyY2hhc2VJZDogc3RyaW5nOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2lnbldhdGNoVG9rZW4ocGF5bG9hZDogV2F0Y2hUb2tlblBheWxvYWQpOiBQcm9taXNlPHN0cmluZz4gewogIHJldHVybiBuZXcgU2lnbkpXVCh7IC4uLnBheWxvYWQgfSkKICAgIC5zZXRQcm90ZWN0ZWRIZWFkZXIoeyBhbGc6ICJIUzI1NiIgfSkKICAgIC5zZXRJc3N1ZWRBdCgpCiAgICAuc2V0RXhwaXJhdGlvblRpbWUoIjJ5IikKICAgIC5zaWduKHNlY3JldCk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB2ZXJpZnlXYXRjaFRva2VuKAogIHRva2VuOiBzdHJpbmcKKTogUHJvbWlzZTxXYXRjaFRva2VuUGF5bG9hZCB8IG51bGw+IHsKICB0cnkgewogICAgY29uc3QgeyBwYXlsb2FkIH0gPSBhd2FpdCBqd3RWZXJpZnkodG9rZW4sIHNlY3JldCk7CiAgICByZXR1cm4gcGF5bG9hZCBhcyB1bmtub3duIGFzIFdhdGNoVG9rZW5QYXlsb2FkOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIG51bGw7CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2lnbkFkbWluVG9rZW4oKTogUHJvbWlzZTxzdHJpbmc+IHsKICByZXR1cm4gbmV3IFNpZ25KV1QoeyByb2xlOiAiYWRtaW4iIH0pCiAgICAuc2V0UHJvdGVjdGVkSGVhZGVyKHsgYWxnOiAiSFMyNTYiIH0pCiAgICAuc2V0SXNzdWVkQXQoKQogICAgLnNldEV4cGlyYXRpb25UaW1lKCIxMmgiKQogICAgLnNpZ24oQURNSU5fU0VDUkVUKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHZlcmlmeUFkbWluVG9rZW4odG9rZW46IHN0cmluZyk6IFByb21pc2U8Ym9vbGVhbj4gewogIHRyeSB7CiAgICBjb25zdCB7IHBheWxvYWQgfSA9IGF3YWl0IGp3dFZlcmlmeSh0b2tlbiwgQURNSU5fU0VDUkVUKTsKICAgIHJldHVybiBwYXlsb2FkLnJvbGUgPT09ICJhZG1pbiI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9Cg=="}
+import { SignJWT, jwtVerify } from "jose";
+
+const secret = new TextEncoder().encode(
+  process.env.TOKEN_SECRET || "fallback-secret-change-in-production"
+);
+
+const ADMIN_SECRET = new TextEncoder().encode(
+  process.env.ADMIN_JWT_SECRET || "fallback-admin-secret-change-in-production"
+);
+
+export interface WatchTokenPayload {
+  videoId: string | null; // null = subscription (all videos)
+  email: string;
+  type: "single" | "subscription";
+  purchaseId: string;
+}
+
+export async function signWatchToken(payload: WatchTokenPayload): Promise<string> {
+  return new SignJWT({ ...payload })
+    .setProtectedHeader({ alg: "HS256" })
+    .setIssuedAt()
+    .setExpirationTime("2y")
+    .sign(secret);
+}
+
+export async function verifyWatchToken(
+  token: string
+): Promise<WatchTokenPayload | null> {
+  try {
+    const { payload } = await jwtVerify(token, secret);
+    return payload as unknown as WatchTokenPayload;
+  } catch {
+    return null;
+  }
+}
+
+export async function signAdminToken(): Promise<string> {
+  return new SignJWT({ role: "admin" })
+    .setProtectedHeader({ alg: "HS256" })
+    .setIssuedAt()
+    .setExpirationTime("12h")
+    .sign(ADMIN_SECRET);
+}
+
+export async function verifyAdminToken(token: string): Promise<boolean> {
+  try {
+    const { payload } = await jwtVerify(token, ADMIN_SECRET);
+    return payload.role === "admin";
+  } catch {
+    return false;
+  }
+}

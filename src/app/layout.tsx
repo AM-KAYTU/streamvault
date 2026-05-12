@@ -1,1 +1,34 @@
-{"data":"aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwppbXBvcnQgTmF2YmFyIGZyb20gIkAvY29tcG9uZW50cy9OYXZiYXIiOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogIlN0cmVhbVZhdWx0IOKAlCBQcmVtaXVtIFZpZGVvIFN0cmVhbWluZyIsCiAgZGVzY3JpcHRpb246ICJFeGNsdXNpdmUgcHJlbWl1bSB2aWRlbyBjb250ZW50LiBQYXkgb25jZSwgd2F0Y2ggZm9yZXZlci4iLAogIG9wZW5HcmFwaDogewogICAgdGl0bGU6ICJTdHJlYW1WYXVsdCIsCiAgICBkZXNjcmlwdGlvbjogIkV4Y2x1c2l2ZSBwcmVtaXVtIHZpZGVvIGNvbnRlbnQuIiwKICAgIHR5cGU6ICJ3ZWJzaXRlIiwKICB9LAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7CiAgY2hpbGRyZW4sCn06IHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwp9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIj4KICAgICAgPGJvZHkgY2xhc3NOYW1lPSJiZy1bIzBhMGEwYV0gdGV4dC13aGl0ZSBtaW4taC1zY3JlZW4iPgogICAgICAgIDxOYXZiYXIgLz4KICAgICAgICA8bWFpbj57Y2hpbGRyZW59PC9tYWluPgogICAgICAgIDxmb290ZXIgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYm9yZGVyIG10LTIwIHB5LTEwIHRleHQtY2VudGVyIHRleHQtbXV0ZWQgdGV4dC1zbSI+CiAgICAgICAgICA8cD7CqSB7bmV3IERhdGUoKS5nZXRGdWxsWWVhcigpfSBTdHJlYW1WYXVsdC4gQWxsIHJpZ2h0cyByZXNlcnZlZC48L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LWdyYXktNjAwIj4KICAgICAgICAgICAgU2VjdXJlIHBheW1lbnRzIHBvd2VyZWQgYnkgUGF5c3RhY2sKICAgICAgICAgIDwvcD4KICAgICAgICA8L2Zvb3Rlcj4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K"}
+import type { Metadata } from "next";
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+
+export const metadata: Metadata = {
+  title: "StreamVault — Premium Video Streaming",
+  description: "Exclusive premium video content. Pay once, watch forever.",
+  openGraph: {
+    title: "StreamVault",
+    description: "Exclusive premium video content.",
+    type: "website",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="bg-[#0a0a0a] text-white min-h-screen">
+        <Navbar />
+        <main>{children}</main>
+        <footer className="border-t border-border mt-20 py-10 text-center text-muted text-sm">
+          <p>© {new Date().getFullYear()} StreamVault. All rights reserved.</p>
+          <p className="mt-1 text-xs text-gray-600">
+            Secure payments powered by Paystack
+          </p>
+        </footer>
+      </body>
+    </html>
+  );
+}

@@ -1,1 +1,336 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlLCB1c2VDYWxsYmFjayB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKCmludGVyZmFjZSBWaWRlb1BsYXllclByb3BzIHsKICB2aWRlb0lkOiBzdHJpbmc7CiAgcGluOiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVmlkZW9QbGF5ZXIoeyB2aWRlb0lkLCBwaW4sIHRpdGxlIH06IFZpZGVvUGxheWVyUHJvcHMpIHsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCB2aWRlb1JlZiA9IHVzZVJlZjxIVE1MVmlkZW9FbGVtZW50PihudWxsKTsKICBjb25zdCBjb250YWluZXJSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQ+KG51bGwpOwogIGNvbnN0IFtwbGF5aW5nLCBzZXRQbGF5aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbY3VycmVudFRpbWUsIHNldEN1cnJlbnRUaW1lXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IFtkdXJhdGlvbiwgc2V0RHVyYXRpb25dID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW3ZvbHVtZSwgc2V0Vm9sdW1lXSA9IHVzZVN0YXRlKDEpOwogIGNvbnN0IFttdXRlZCwgc2V0TXV0ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtmdWxsc2NyZWVuLCBzZXRGdWxsc2NyZWVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc2hvd0NvbnRyb2xzLCBzZXRTaG93Q29udHJvbHNdID0gdXNlU3RhdGUodHJ1ZSk7CiAgY29uc3QgW2J1ZmZlcmluZywgc2V0QnVmZmVyaW5nXSA9IHVzZVN0YXRlKHRydWUpOwogIGNvbnN0IFttaW51dGVzTGVmdCwgc2V0TWludXRlc0xlZnRdID0gdXNlU3RhdGU8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2V4aGF1c3RlZCwgc2V0RXhoYXVzdGVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBjb250cm9sc1RpbWVyID0gdXNlUmVmPFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+PigpOwogIGNvbnN0IGxhc3RSZXBvcnRlZFRpbWUgPSB1c2VSZWYoMCk7CiAgY29uc3QgdG91Y2hUaW1lciA9IHVzZVJlZjxSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0Pj4oKTsKCiAgY29uc3Qgc3RyZWFtVXJsID0gYC9hcGkvc3RyZWFtLyR7dmlkZW9JZH0/cGluPSR7ZW5jb2RlVVJJQ29tcG9uZW50KHBpbil9YDsKCiAgLy8gQXV0by1oaWRlIGNvbnRyb2xzCiAgZnVuY3Rpb24gc2hvd0NvbnRyb2xzVGVtcG9yYXJpbHkoKSB7CiAgICBzZXRTaG93Q29udHJvbHModHJ1ZSk7CiAgICBjbGVhclRpbWVvdXQoY29udHJvbHNUaW1lci5jdXJyZW50KTsKICAgIGNvbnRyb2xzVGltZXIuY3VycmVudCA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICBpZiAodmlkZW9SZWYuY3VycmVudCAmJiAhdmlkZW9SZWYuY3VycmVudC5wYXVzZWQpIHNldFNob3dDb250cm9scyhmYWxzZSk7CiAgICB9LCAzMDAwKTsKICB9CgogIC8vIFJlcG9ydCB3YXRjaCBwcm9ncmVzcyBldmVyeSAxNXMKICBjb25zdCByZXBvcnRQcm9ncmVzcyA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGlmICghdmlkZW9SZWYuY3VycmVudCB8fCB2aWRlb1JlZi5jdXJyZW50LnBhdXNlZCkgcmV0dXJuOwogICAgY29uc3Qgbm93ID0gTWF0aC5mbG9vcih2aWRlb1JlZi5jdXJyZW50LmN1cnJlbnRUaW1lKTsKICAgIGNvbnN0IGRlbHRhID0gbm93IC0gbGFzdFJlcG9ydGVkVGltZS5jdXJyZW50OwogICAgaWYgKGRlbHRhIDw9IDApIHJldHVybjsKICAgIGxhc3RSZXBvcnRlZFRpbWUuY3VycmVudCA9IG5vdzsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCIvYXBpL3dhdGNoL3Byb2dyZXNzIiwgewogICAgICAgIG1ldGhvZDogIlBPU1QiLAogICAgICAgIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgdmlkZW9JZCwgcGluLCBzZWNvbmRzOiBkZWx0YSB9KSwKICAgICAgfSk7CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpOwogICAgICBpZiAoZGF0YS5vaykgewogICAgICAgIHNldE1pbnV0ZXNMZWZ0KGRhdGEubWludXRlc0xlZnQpOwogICAgICAgIGlmIChkYXRhLmV4aGF1c3RlZCkgewogICAgICAgICAgc2V0RXhoYXVzdGVkKHRydWUpOwogICAgICAgICAgdmlkZW9SZWYuY3VycmVudD8ucGF1c2UoKTsKICAgICAgICB9CiAgICAgIH0KICAgIH0gY2F0Y2ggeyAvKiBrZWVwIHBsYXlpbmcgc2lsZW50bHkgb24gbmV0d29yayBlcnJvciAqLyB9CiAgfSwgW3ZpZGVvSWQsIHBpbl0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgaW50ZXJ2YWwgPSBzZXRJbnRlcnZhbChyZXBvcnRQcm9ncmVzcywgMTUwMDApOwogICAgcmV0dXJuICgpID0+IGNsZWFySW50ZXJ2YWwoaW50ZXJ2YWwpOwogIH0sIFtyZXBvcnRQcm9ncmVzc10pOwoKICAvLyBGdWxsc2NyZWVuIGNoYW5nZSBsaXN0ZW5lcgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBmdW5jdGlvbiBvbkZzQ2hhbmdlKCkgewogICAgICBzZXRGdWxsc2NyZWVuKCEhZG9jdW1lbnQuZnVsbHNjcmVlbkVsZW1lbnQpOwogICAgfQogICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiZnVsbHNjcmVlbmNoYW5nZSIsIG9uRnNDaGFuZ2UpOwogICAgcmV0dXJuICgpID0+IGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoImZ1bGxzY3JlZW5jaGFuZ2UiLCBvbkZzQ2hhbmdlKTsKICB9LCBbXSk7CgogIGZ1bmN0aW9uIHRvZ2dsZVBsYXkoKSB7CiAgICBpZiAoZXhoYXVzdGVkIHx8ICF2aWRlb1JlZi5jdXJyZW50KSByZXR1cm47CiAgICBpZiAodmlkZW9SZWYuY3VycmVudC5wYXVzZWQpIHsKICAgICAgdmlkZW9SZWYuY3VycmVudC5wbGF5KCk7CiAgICB9IGVsc2UgewogICAgICB2aWRlb1JlZi5jdXJyZW50LnBhdXNlKCk7CiAgICB9CiAgICBzaG93Q29udHJvbHNUZW1wb3JhcmlseSgpOwogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2VlayhlOiBSZWFjdC5DaGFuZ2VFdmVudDxIVE1MSW5wdXRFbGVtZW50PikgewogICAgaWYgKCF2aWRlb1JlZi5jdXJyZW50KSByZXR1cm47CiAgICBjb25zdCB0ID0gcGFyc2VGbG9hdChlLnRhcmdldC52YWx1ZSk7CiAgICB2aWRlb1JlZi5jdXJyZW50LmN1cnJlbnRUaW1lID0gdDsKICAgIHNldEN1cnJlbnRUaW1lKHQpOwogIH0KCiAgZnVuY3Rpb24gaGFuZGxlVm9sdW1lQ2hhbmdlKGU6IFJlYWN0LkNoYW5nZUV2ZW50PEhUTUxJbnB1dEVsZW1lbnQ+KSB7CiAgICBjb25zdCB2ID0gcGFyc2VGbG9hdChlLnRhcmdldC52YWx1ZSk7CiAgICBzZXRWb2x1bWUodik7CiAgICBpZiAodmlkZW9SZWYuY3VycmVudCkgeyB2aWRlb1JlZi5jdXJyZW50LnZvbHVtZSA9IHY7IHZpZGVvUmVmLmN1cnJlbnQubXV0ZWQgPSB2ID09PSAwOyB9CiAgICBzZXRNdXRlZCh2ID09PSAwKTsKICB9CgogIGZ1bmN0aW9uIHRvZ2dsZU11dGUoKSB7CiAgICBpZiAoIXZpZGVvUmVmLmN1cnJlbnQpIHJldHVybjsKICAgIGNvbnN0IG5leHQgPSAhbXV0ZWQ7CiAgICB2aWRlb1JlZi5jdXJyZW50Lm11dGVkID0gbmV4dDsKICAgIHNldE11dGVkKG5leHQpOwogIH0KCiAgZnVuY3Rpb24gdG9nZ2xlRnVsbHNjcmVlbigpIHsKICAgIGNvbnN0IGVsID0gY29udGFpbmVyUmVmLmN1cnJlbnQ7CiAgICBpZiAoIWVsKSByZXR1cm47CiAgICBpZiAoZG9jdW1lbnQuZnVsbHNjcmVlbkVsZW1lbnQpIHsKICAgICAgZG9jdW1lbnQuZXhpdEZ1bGxzY3JlZW4oKTsKICAgIH0gZWxzZSB7CiAgICAgIGVsLnJlcXVlc3RGdWxsc2NyZWVuKCk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBza2lwKHM6IG51bWJlcikgewogICAgaWYgKCF2aWRlb1JlZi5jdXJyZW50KSByZXR1cm47CiAgICB2aWRlb1JlZi5jdXJyZW50LmN1cnJlbnRUaW1lID0gTWF0aC5taW4oTWF0aC5tYXgodmlkZW9SZWYuY3VycmVudC5jdXJyZW50VGltZSArIHMsIDApLCBkdXJhdGlvbik7CiAgICBzaG93Q29udHJvbHNUZW1wb3JhcmlseSgpOwogIH0KCiAgLy8gRG91YmxlLXRhcCB0byBzZWVrIG9uIG1vYmlsZQogIGZ1bmN0aW9uIGhhbmRsZVRhcChlOiBSZWFjdC5Nb3VzZUV2ZW50KSB7CiAgICBjb25zdCByZWN0ID0gKGUuY3VycmVudFRhcmdldCBhcyBIVE1MRWxlbWVudCkuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICBjb25zdCB4ID0gZS5jbGllbnRYIC0gcmVjdC5sZWZ0OwogICAgaWYgKHRvdWNoVGltZXIuY3VycmVudCkgewogICAgICBjbGVhclRpbWVvdXQodG91Y2hUaW1lci5jdXJyZW50KTsKICAgICAgdG91Y2hUaW1lci5jdXJyZW50ID0gdW5kZWZpbmVkOwogICAgICBza2lwKHggPCByZWN0LndpZHRoIC8gMiA/IC0xMCA6IDEwKTsKICAgIH0gZWxzZSB7CiAgICAgIHRvdWNoVGltZXIuY3VycmVudCA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIHRvdWNoVGltZXIuY3VycmVudCA9IHVuZGVmaW5lZDsKICAgICAgICB0b2dnbGVQbGF5KCk7CiAgICAgIH0sIDI1MCk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBmbXQoczogbnVtYmVyKSB7CiAgICBpZiAoIXMgfHwgaXNOYU4ocykpIHJldHVybiAiMDowMCI7CiAgICBjb25zdCBoID0gTWF0aC5mbG9vcihzIC8gMzYwMCk7CiAgICBjb25zdCBtID0gTWF0aC5mbG9vcigocyAlIDM2MDApIC8gNjApOwogICAgY29uc3Qgc2VjID0gTWF0aC5mbG9vcihzICUgNjApOwogICAgaWYgKGggPiAwKSByZXR1cm4gYCR7aH06JHtTdHJpbmcobSkucGFkU3RhcnQoMiwgIjAiKX06JHtTdHJpbmcoc2VjKS5wYWRTdGFydCgyLCAiMCIpfWA7CiAgICByZXR1cm4gYCR7bX06JHtTdHJpbmcoc2VjKS5wYWRTdGFydCgyLCAiMCIpfWA7CiAgfQoKICBjb25zdCBwcm9ncmVzcyA9IGR1cmF0aW9uID4gMCA/IChjdXJyZW50VGltZSAvIGR1cmF0aW9uKSAqIDEwMCA6IDA7CgogIGlmIChleGhhdXN0ZWQpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctYmxhY2sgcm91bmRlZC14bCBvdmVyZmxvdy1oaWRkZW4gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiIHN0eWxlPXt7IGFzcGVjdFJhdGlvOiAiMTYvOSIgfX0+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB4LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiBiZy1yZWQtNTAwLzEwIGJvcmRlciBib3JkZXItcmVkLTUwMC8zMCByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbXgtYXV0byBtYi00Ij4KICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctOCBoLTggdGV4dC1yZWQtNDAwIiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTEyIDh2NGwzIDNtNi0zYTkgOSAwIDExLTE4IDAgOSA5IDAgMDExOCAweiIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtd2hpdGUgZm9udC1ib2xkIHRleHQteGwgbWItMiI+V2F0Y2ggVGltZSBFeGhhdXN0ZWQ8L2gzPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIHRleHQtc20gbWItNiI+WW91ciBtaW51dGVzIGhhdmUgcnVuIG91dC48L3A+CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHJvdXRlci5wdXNoKCIvY3JlZGl0cyIpfSBjbGFzc05hbWU9ImJ0bi1nb2xkIHB4LTggcHktMyI+QnV5IE1vcmUgVGltZTwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdgogICAgICByZWY9e2NvbnRhaW5lclJlZn0KICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctYmxhY2sgb3ZlcmZsb3ctaGlkZGVuIHNlbGVjdC1ub25lIHJlbGF0aXZlIGdyb3VwIgogICAgICBzdHlsZT17eyBhc3BlY3RSYXRpbzogIjE2LzkiIH19CiAgICAgIG9uTW91c2VNb3ZlPXtzaG93Q29udHJvbHNUZW1wb3JhcmlseX0KICAgICAgb25Nb3VzZUxlYXZlPXsoKSA9PiB7IGlmIChwbGF5aW5nKSBzZXRTaG93Q29udHJvbHMoZmFsc2UpOyB9fQogICAgPgogICAgICA8dmlkZW8KICAgICAgICByZWY9e3ZpZGVvUmVmfQogICAgICAgIHNyYz17c3RyZWFtVXJsfQogICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY29udGFpbiIKICAgICAgICBvblRpbWVVcGRhdGU9eygpID0+IHNldEN1cnJlbnRUaW1lKHZpZGVvUmVmLmN1cnJlbnQ/LmN1cnJlbnRUaW1lIHx8IDApfQogICAgICAgIG9uTG9hZGVkTWV0YWRhdGE9eygpID0+IHsgc2V0RHVyYXRpb24odmlkZW9SZWYuY3VycmVudD8uZHVyYXRpb24gfHwgMCk7IHNldEJ1ZmZlcmluZyhmYWxzZSk7IH19CiAgICAgICAgb25QbGF5PXsoKSA9PiB7IHNldFBsYXlpbmcodHJ1ZSk7IHNob3dDb250cm9sc1RlbXBvcmFyaWx5KCk7IH19CiAgICAgICAgb25QYXVzZT17KCkgPT4geyBzZXRQbGF5aW5nKGZhbHNlKTsgc2V0U2hvd0NvbnRyb2xzKHRydWUpOyB9fQogICAgICAgIG9uV2FpdGluZz17KCkgPT4gc2V0QnVmZmVyaW5nKHRydWUpfQogICAgICAgIG9uQ2FuUGxheT17KCkgPT4gc2V0QnVmZmVyaW5nKGZhbHNlKX0KICAgICAgICBvblByb2dyZXNzPXsoKSA9PiBzZXRCdWZmZXJpbmcoZmFsc2UpfQogICAgICAgIHBsYXlzSW5saW5lCiAgICAgICAgcHJlbG9hZD0iYXV0byIKICAgICAgICB4LXdlYmtpdC1haXJwbGF5PSJhbGxvdyIKICAgICAgLz4KCiAgICAgIHsvKiBCdWZmZXJpbmcgc3Bpbm5lciAqL30KICAgICAge2J1ZmZlcmluZyAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcG9pbnRlci1ldmVudHMtbm9uZSI+CiAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy0xNCBoLTE0IHRleHQtZ29sZCBhbmltYXRlLXNwaW4iIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgICAgICAgICAgIDxjaXJjbGUgY2xhc3NOYW1lPSJvcGFjaXR5LTIwIiBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMyIgLz4KICAgICAgICAgICAgPHBhdGggY2xhc3NOYW1lPSJvcGFjaXR5LTgwIiBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00IDEyYTggOCAwIDAxOC04VjBDNS4zNzMgMCAwIDUuMzczIDAgMTJoNHoiIC8+CiAgICAgICAgICA8L3N2Zz4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHsvKiBDbGljay90YXAgb3ZlcmxheSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgY3Vyc29yLXBvaW50ZXIiIG9uQ2xpY2s9e2hhbmRsZVRhcH0gLz4KCiAgICAgIHsvKiBDZW50cmUgcGxheSBidXR0b24gKi99CiAgICAgIHshcGxheWluZyAmJiAhYnVmZmVyaW5nICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwb2ludGVyLWV2ZW50cy1ub25lIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTIwIGgtMjAgYmctZ29sZC85MCByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hhZG93LTJ4bCI+CiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTggaC04IHRleHQtYmxhY2sgbWwtMiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPgogICAgICAgICAgICAgIDxwYXRoIGQ9Ik02LjMgMi44NDFBMS41IDEuNSAwIDAwNCA0LjExVjE1Ljg5YTEuNSAxLjUgMCAwMDIuMyAxLjI2OWw5LjM0NC01Ljg5YTEuNSAxLjUgMCAwMDAtMi41MzhMNi4zIDIuODQxeiIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHsvKiBDb250cm9scyBiYXIgKi99CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9e2BhYnNvbHV0ZSBib3R0b20tMCBsZWZ0LTAgcmlnaHQtMCB0cmFuc2l0aW9uLW9wYWNpdHkgZHVyYXRpb24tMzAwICR7c2hvd0NvbnRyb2xzIHx8ICFwbGF5aW5nID8gIm9wYWNpdHktMTAwIiA6ICJvcGFjaXR5LTAifWB9CiAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogImxpbmVhci1ncmFkaWVudCh0cmFuc3BhcmVudCwgcmdiYSgwLDAsMCwwLjg1KSkiLCBwYWRkaW5nVG9wOiA0OCB9fQogICAgICA+CiAgICAgICAgey8qIFRpdGxlICsgdGltZSBsZWZ0ICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtMyBzbTpweC00IG1iLTEiPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIHRleHQteHMgc206dGV4dC1zbSBmb250LW1lZGl1bSB0cnVuY2F0ZSBmbGV4LTEgbXItNCI+e3RpdGxlfTwvcD4KICAgICAgICAgIHttaW51dGVzTGVmdCAhPT0gbnVsbCAmJiAoCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1nb2xkIHRleHQteHMgZm9udC1zZW1pYm9sZCBzaHJpbmstMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctMyBoLTMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezJ9IGQ9Ik0xMiA4djRsMyAzbTYtM2E5IDkgMCAxMS0xOCAwIDkgOSAwIDAxMTggMHoiIC8+CiAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAge21pbnV0ZXNMZWZ0fW0gbGVmdAogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogU2VlayBiYXIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTMgc206cHgtNCBtYi0yIiBvbkNsaWNrPXsoZSkgPT4gZS5zdG9wUHJvcGFnYXRpb24oKX0+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgaC0xIGdyb3VwL3NlZWsiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy13aGl0ZS8yMCByb3VuZGVkLWZ1bGwiIC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC15LTAgbGVmdC0wIGJnLWdvbGQgcm91bmRlZC1mdWxsIiBzdHlsZT17eyB3aWR0aDogYCR7cHJvZ3Jlc3N9JWAgfX0gLz4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdHlwZT0icmFuZ2UiIG1pbj17MH0gbWF4PXtkdXJhdGlvbiB8fCAwfSBzdGVwPXswLjF9IHZhbHVlPXtjdXJyZW50VGltZX0KICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2Vla30KICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgdy1mdWxsIG9wYWNpdHktMCBjdXJzb3ItcG9pbnRlciBoLWZ1bGwiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIEJ1dHRvbnMgcm93ICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSBzbTpnYXAtMiBweC0zIHNtOnB4LTQgcGItMyIgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9PgogICAgICAgICAgey8qIFBsYXkvcGF1c2UgKi99CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3RvZ2dsZVBsYXl9IGNsYXNzTmFtZT0idGV4dC13aGl0ZSBob3Zlcjp0ZXh0LWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgcC0xIj4KICAgICAgICAgICAge3BsYXlpbmcKICAgICAgICAgICAgICA/IDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IHNtOnctNiBzbTpoLTYiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNiA0aDR2MTZINnptOCAwaDR2MTZoLTR6IiAvPjwvc3ZnPgogICAgICAgICAgICAgIDogPHN2ZyBjbGFzc05hbWU9InctNSBoLTUgc206dy02IHNtOmgtNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGQ9Ik02LjMgMi44NDFBMS41IDEuNSAwIDAwNCA0LjExVjE1Ljg5YTEuNSAxLjUgMCAwMDIuMyAxLjI2OWw5LjM0NC01Ljg5YTEuNSAxLjUgMCAwMDAtMi41MzhMNi4zIDIuODQxeiIgLz48L3N2Zz4KICAgICAgICAgICAgfQogICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAgey8qIFNraXAgYmFjayAqL30KICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2tpcCgtMTApfSBjbGFzc05hbWU9InRleHQtd2hpdGUgaG92ZXI6dGV4dC1nb2xkIHRyYW5zaXRpb24tY29sb3JzIHAtMSI+CiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IHNtOnctNSBzbTpoLTUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsyfT4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNMTIuMDY2IDExLjJhMSAxIDAgMDAwIDEuNmw1LjMzNCA0QTEgMSAwIDAwMTkgMTZWOGExIDEgMCAwMC0xLjYtLjhsLTUuMzMzIDR6TTQuMDY2IDExLjJhMSAxIDAgMDAwIDEuNmw1LjMzNCA0QTEgMSAwIDAwMTEgMTZWOGExIDEgMCAwMC0xLjYtLjhsLTUuMzM0IDR6IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgIHsvKiBTa2lwIGZvcndhcmQgKi99CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNraXAoMTApfSBjbGFzc05hbWU9InRleHQtd2hpdGUgaG92ZXI6dGV4dC1nb2xkIHRyYW5zaXRpb24tY29sb3JzIHAtMSI+CiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IHNtOnctNSBzbTpoLTUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPXsyfT4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNMTEuOTMzIDEyLjhhMSAxIDAgMDAwLTEuNkw2LjYgNy4yQTEgMSAwIDAwNSA4djhhMSAxIDAgMDAxLjYuOGw1LjMzMy00ek0xOS45MzMgMTIuOGExIDEgMCAwMDAtMS42bC01LjMzMy00QTEgMSAwIDAwMTMgOHY4YTEgMSAwIDAwMS42LjhsNS4zMzMtNHoiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAgey8qIFRpbWUgKi99CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAgdGV4dC14cyB0YWJ1bGFyLW51bXMgbWwtMSI+e2ZtdChjdXJyZW50VGltZSl9IC8ge2ZtdChkdXJhdGlvbil9PC9zcGFuPgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEiIC8+CgogICAgICAgICAgey8qIFZvbHVtZSDigJQgaGlkZGVuIG9uIHNtYWxsIG1vYmlsZSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoaWRkZW4gc206ZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3RvZ2dsZU11dGV9IGNsYXNzTmFtZT0idGV4dC13aGl0ZSBob3Zlcjp0ZXh0LWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgcC0xIj4KICAgICAgICAgICAgICB7bXV0ZWQgfHwgdm9sdW1lID09PSAwCiAgICAgICAgICAgICAgICA/IDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IHNtOnctNSBzbTpoLTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNNS41ODYgMTVINGExIDEgMCAwMS0xLTF2LTRhMSAxIDAgMDExLTFoMS41ODZsNC43MDctNC43MDdDMTAuOTIzIDMuNjYzIDEyIDQuMTA5IDEyIDV2MTRjMCAuODkxLTEuMDc3IDEuMzM3LTEuNzA3LjcwN0w1LjU4NiAxNXpNMTcgMTRsMi0ybTAgMGwyLTJtLTIgMmwtMi0ybTIgMmwyIDIiIC8+PC9zdmc+CiAgICAgICAgICAgICAgICA6IDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IHNtOnctNSBzbTpoLTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNMTUuNTM2IDguNDY0YTUgNSAwIDAxMCA3LjA3Mk0xMiA2djEybS0zLjUzNi05LjUzNkE1IDUgMCAwMDggMTJhNSA1IDAgMDAuNDY0IDIuNTM2TTUuNTg2IDE1SDRhMSAxIDAgMDEtMS0xdi00YTEgMSAwIDAxMS0xaDEuNTg2bDQuNzA3LTQuNzA3QzEwLjkyMyAzLjY2MyAxMiA0LjEwOSAxMiA1djE0YzAgLjg5MS0xLjA3NyAxLjMzNy0xLjcwNy43MDdMNS41ODYgMTV6IiAvPjwvc3ZnPgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJyYW5nZSIgbWluPXswfSBtYXg9ezF9IHN0ZXA9ezAuMDV9IHZhbHVlPXttdXRlZCA/IDAgOiB2b2x1bWV9CiAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVZvbHVtZUNoYW5nZX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InctMTYgaC0xIGFwcGVhcmFuY2Utbm9uZSBiZy13aGl0ZS8yMCByb3VuZGVkLWZ1bGwgY3Vyc29yLXBvaW50ZXIgWyY6Oi13ZWJraXQtc2xpZGVyLXRodW1iXTphcHBlYXJhbmNlLW5vbmUgWyY6Oi13ZWJraXQtc2xpZGVyLXRodW1iXTp3LTMgWyY6Oi13ZWJraXQtc2xpZGVyLXRodW1iXTpoLTMgWyY6Oi13ZWJraXQtc2xpZGVyLXRodW1iXTpyb3VuZGVkLWZ1bGwgWyY6Oi13ZWJraXQtc2xpZGVyLXRodW1iXTpiZy1nb2xkIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIEZ1bGxzY3JlZW4gKi99CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3RvZ2dsZUZ1bGxzY3JlZW59IGNsYXNzTmFtZT0idGV4dC13aGl0ZSBob3Zlcjp0ZXh0LWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgcC0xIG1sLTEiPgogICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy00IGgtNCBzbTp3LTUgc206aC01IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD17ZnVsbHNjcmVlbgogICAgICAgICAgICAgICAgPyAiTTkgOVY0LjVNOSA5SDQuNU05IDlMMy43NSAzLjc1TTkgMTV2NC41TTkgMTVINC41TTkgMTVsLTUuMjUgNS4yNU0xNSA5aDQuNU0xNSA5VjQuNU0xNSA5bDUuMjUtNS4yNU0xNSAxNWg0LjVNMTUgMTV2NC41bTAtNC41bDUuMjUgNS4yNSIKICAgICAgICAgICAgICAgIDogIk0zLjc1IDMuNzV2NC41bTAtNC41aDQuNW0tNC41IDBMOSA5TTMuNzUgMjAuMjV2LTQuNW0wIDQuNWg0LjVtLTQuNSAwTDkgMTVNMjAuMjUgMy43NWgtNC41bTQuNSAwdjQuNW0wLTQuNUwxNSA5bTUuMjUgMTEuMjVoLTQuNW00LjUgMHYtNC41bTAgNC41TDE1IDE1IgogICAgICAgICAgICAgIH0gLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+
+import { useEffect, useRef, useState, useCallback } from "react";
+import { useRouter } from "next/navigation";
+import Hls from "hls.js";
+
+interface VideoPlayerProps {
+  videoId: string;
+  pin: string;
+  title: string;
+}
+
+export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
+  const router = useRouter();
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const hlsRef = useRef<Hls | null>(null);
+  const [playing, setPlaying] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [volume, setVolume] = useState(1);
+  const [muted, setMuted] = useState(false);
+  const [fullscreen, setFullscreen] = useState(false);
+  const [showControls, setShowControls] = useState(true);
+  const [buffering, setBuffering] = useState(true);
+  const [minutesLeft, setMinutesLeft] = useState<number | null>(null);
+  const [exhausted, setExhausted] = useState(false);
+  const [streamError, setStreamError] = useState("");
+  const controlsTimer = useRef<ReturnType<typeof setTimeout>>();
+  const lastReportedTime = useRef(0);
+  const touchTimer = useRef<ReturnType<typeof setTimeout>>();
+
+  // Fetch signed HLS URL and initialise hls.js
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    let cancelled = false;
+
+    async function initStream() {
+      try {
+        const res = await fetch(`/api/stream/${videoId}?pin=${encodeURIComponent(pin)}`);
+        if (cancelled) return;
+        if (!res.ok) { setStreamError("Unable to load video."); setBuffering(false); return; }
+        const { streamUrl } = await res.json();
+
+        if (Hls.isSupported()) {
+          const hls = new Hls({ enableWorker: true, lowLatencyMode: false });
+          hlsRef.current = hls;
+          hls.loadSource(streamUrl);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.ERROR, (_, data) => {
+            if (data.fatal) { setStreamError("Stream error."); setBuffering(false); }
+          });
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          // Safari native HLS
+          video.src = streamUrl;
+        } else {
+          setStreamError("Your browser doesn't support this video format.");
+          setBuffering(false);
+        }
+      } catch {
+        if (!cancelled) { setStreamError("Unable to load video."); setBuffering(false); }
+      }
+    }
+
+    initStream();
+
+    return () => {
+      cancelled = true;
+      hlsRef.current?.destroy();
+      hlsRef.current = null;
+    };
+  }, [videoId, pin]);
+
+  // Report watch progress every 15s
+  const reportProgress = useCallback(async () => {
+    if (!videoRef.current || videoRef.current.paused) return;
+    const now = Math.floor(videoRef.current.currentTime);
+    const delta = now - lastReportedTime.current;
+    if (delta <= 0) return;
+    lastReportedTime.current = now;
+    try {
+      const res = await fetch("/api/watch/progress", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ videoId, pin, seconds: delta }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        setMinutesLeft(data.minutesLeft);
+        if (data.exhausted) { setExhausted(true); videoRef.current?.pause(); }
+      }
+    } catch { /* keep playing silently on network error */ }
+  }, [videoId, pin]);
+
+  useEffect(() => {
+    const interval = setInterval(reportProgress, 15000);
+    return () => clearInterval(interval);
+  }, [reportProgress]);
+
+  // Fullscreen change listener
+  useEffect(() => {
+    function onFsChange() { setFullscreen(!!document.fullscreenElement); }
+    document.addEventListener("fullscreenchange", onFsChange);
+    return () => document.removeEventListener("fullscreenchange", onFsChange);
+  }, []);
+
+  function showControlsTemporarily() {
+    setShowControls(true);
+    clearTimeout(controlsTimer.current);
+    controlsTimer.current = setTimeout(() => {
+      if (videoRef.current && !videoRef.current.paused) setShowControls(false);
+    }, 3000);
+  }
+
+  function togglePlay() {
+    if (exhausted || !videoRef.current) return;
+    videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause();
+    showControlsTemporarily();
+  }
+
+  function handleSeek(e: React.ChangeEvent<HTMLInputElement>) {
+    if (!videoRef.current) return;
+    const t = parseFloat(e.target.value);
+    videoRef.current.currentTime = t;
+    setCurrentTime(t);
+  }
+
+  function handleVolumeChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const v = parseFloat(e.target.value);
+    setVolume(v);
+    if (videoRef.current) { videoRef.current.volume = v; videoRef.current.muted = v === 0; }
+    setMuted(v === 0);
+  }
+
+  function toggleMute() {
+    if (!videoRef.current) return;
+    const next = !muted;
+    videoRef.current.muted = next;
+    setMuted(next);
+  }
+
+  function toggleFullscreen() {
+    const el = containerRef.current;
+    if (!el) return;
+    document.fullscreenElement ? document.exitFullscreen() : el.requestFullscreen();
+  }
+
+  function skip(s: number) {
+    if (!videoRef.current) return;
+    videoRef.current.currentTime = Math.min(Math.max(videoRef.current.currentTime + s, 0), duration);
+    showControlsTemporarily();
+  }
+
+  function handleTap(e: React.MouseEvent) {
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    if (touchTimer.current) {
+      clearTimeout(touchTimer.current);
+      touchTimer.current = undefined;
+      skip(x < rect.width / 2 ? -10 : 10);
+    } else {
+      touchTimer.current = setTimeout(() => {
+        touchTimer.current = undefined;
+        togglePlay();
+      }, 250);
+    }
+  }
+
+  function fmt(s: number) {
+    if (!s || isNaN(s)) return "0:00";
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = Math.floor(s % 60);
+    if (h > 0) return `${h}:${String(m).padStart(2, "0")}:${String(sec).padStart(2, "0")}`;
+    return `${m}:${String(sec).padStart(2, "0")}`;
+  }
+
+  const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
+
+  if (streamError) {
+    return (
+      <div className="w-full bg-black rounded-xl overflow-hidden flex items-center justify-center" style={{ aspectRatio: "16/9" }}>
+        <div className="text-center px-6">
+          <p className="text-red-400 mb-4">{streamError}</p>
+          <button onClick={() => router.back()} className="btn-outline px-6 py-2">Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (exhausted) {
+    return (
+      <div className="w-full bg-black rounded-xl overflow-hidden flex items-center justify-center" style={{ aspectRatio: "16/9" }}>
+        <div className="text-center px-6">
+          <div className="w-16 h-16 bg-red-500/10 border border-red-500/30 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg className="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 className="text-white font-bold text-xl mb-2">Watch Time Exhausted</h3>
+          <p className="text-gray-400 text-sm mb-6">Your minutes have run out.</p>
+          <button onClick={() => router.push("/credits")} className="btn-gold px-8 py-3">Buy More Time</button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div
+      ref={containerRef}
+      className="w-full bg-black overflow-hidden select-none relative group"
+      style={{ aspectRatio: "16/9" }}
+      onMouseMove={showControlsTemporarily}
+      onMouseLeave={() => { if (playing) setShowControls(false); }}
+    >
+      <video
+        ref={videoRef}
+        className="w-full h-full object-contain"
+        onTimeUpdate={() => setCurrentTime(videoRef.current?.currentTime || 0)}
+        onLoadedMetadata={() => { setDuration(videoRef.current?.duration || 0); setBuffering(false); }}
+        onPlay={() => { setPlaying(true); showControlsTemporarily(); }}
+        onPause={() => { setPlaying(false); setShowControls(true); }}
+        onWaiting={() => setBuffering(true)}
+        onCanPlay={() => setBuffering(false)}
+        onProgress={() => setBuffering(false)}
+        playsInline
+        preload="auto"
+      />
+
+      {/* Buffering spinner */}
+      {buffering && (
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <svg className="w-14 h-14 text-gold animate-spin" fill="none" viewBox="0 0 24 24">
+            <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
+            <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+          </svg>
+        </div>
+      )}
+
+      {/* Click/tap overlay */}
+      <div className="absolute inset-0 cursor-pointer" onClick={handleTap} />
+
+      {/* Centre play button */}
+      {!playing && !buffering && (
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="w-20 h-20 bg-gold/90 rounded-full flex items-center justify-center shadow-2xl">
+            <svg className="w-8 h-8 text-black ml-2" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.841z" />
+            </svg>
+          </div>
+        </div>
+      )}
+
+      {/* Controls bar */}
+      <div
+        className={`absolute bottom-0 left-0 right-0 transition-opacity duration-300 ${showControls || !playing ? "opacity-100" : "opacity-0"}`}
+        style={{ background: "linear-gradient(transparent, rgba(0,0,0,0.85))", paddingTop: 48 }}
+      >
+        {/* Title + time left */}
+        <div className="flex items-center justify-between px-3 sm:px-4 mb-1">
+          <p className="text-white text-xs sm:text-sm font-medium truncate flex-1 mr-4">{title}</p>
+          {minutesLeft !== null && (
+            <span className="text-gold text-xs font-semibold shrink-0 flex items-center gap-1">
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              {minutesLeft}m left
+            </span>
+          )}
+        </div>
+
+        {/* Seek bar */}
+        <div className="px-3 sm:px-4 mb-2" onClick={(e) => e.stopPropagation()}>
+          <div className="relative h-1 group/seek">
+            <div className="absolute inset-0 bg-white/20 rounded-full" />
+            <div className="absolute inset-y-0 left-0 bg-gold rounded-full" style={{ width: `${progress}%` }} />
+            <input
+              type="range" min={0} max={duration || 0} step={0.1} value={currentTime}
+              onChange={handleSeek}
+              className="absolute inset-0 w-full opacity-0 cursor-pointer h-full"
+            />
+          </div>
+        </div>
+
+        {/* Buttons row */}
+        <div className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 pb-3" onClick={(e) => e.stopPropagation()}>
+          <button onClick={togglePlay} className="text-white hover:text-gold transition-colors p-1">
+            {playing
+              ? <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 4h4v16H6zm8 0h4v16h-4z" /></svg>
+              : <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.841z" /></svg>
+            }
+          </button>
+
+          <button onClick={() => skip(-10)} className="text-white hover:text-gold transition-colors p-1">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" />
+            </svg>
+          </button>
+
+          <button onClick={() => skip(10)} className="text-white hover:text-gold transition-colors p-1">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+            </svg>
+          </button>
+
+          <span className="text-gray-300 text-xs tabular-nums ml-1">{fmt(currentTime)} / {fmt(duration)}</span>
+
+          <div className="flex-1" />
+
+          <div className="hidden sm:flex items-center gap-1">
+            <button onClick={toggleMute} className="text-white hover:text-gold transition-colors p-1">
+              {muted || volume === 0
+                ? <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15zM17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
+                : <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072M12 6v12m-3.536-9.536A5 5 0 008 12a5 5 0 00.464 2.536M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
+              }
+            </button>
+            <input type="range" min={0} max={1} step={0.05} value={muted ? 0 : volume}
+              onChange={handleVolumeChange}
+              className="w-16 h-1 appearance-none bg-white/20 rounded-full cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-gold"
+            />
+          </div>
+
+          <button onClick={toggleFullscreen} className="text-white hover:text-gold transition-colors p-1 ml-1">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={fullscreen
+                ? "M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25"
+                : "M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"
+              } />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

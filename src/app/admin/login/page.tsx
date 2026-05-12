@@ -1,1 +1,71 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBZG1pbkxvZ2luUGFnZSgpIHsKICBjb25zdCBbcGFzc3dvcmQsIHNldFBhc3N3b3JkXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUxvZ2luKCkgewogICAgaWYgKCFwYXNzd29yZCkgeyBzZXRFcnJvcigiUGFzc3dvcmQgcmVxdWlyZWQiKTsgcmV0dXJuOyB9CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgc2V0RXJyb3IoIiIpOwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCIvYXBpL2FkbWluL2F1dGgiLCB7CiAgICAgICAgbWV0aG9kOiAiUE9TVCIsCiAgICAgICAgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0sCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBwYXNzd29yZCB9KSwKICAgICAgfSk7CiAgICAgIGlmICghcmVzLm9rKSB7IHNldEVycm9yKCJJbmNvcnJlY3QgcGFzc3dvcmQiKTsgc2V0TG9hZGluZyhmYWxzZSk7IHJldHVybjsgfQogICAgICByb3V0ZXIucHVzaCgiL2FkbWluIik7CiAgICAgIHJvdXRlci5yZWZyZXNoKCk7CiAgICB9IGNhdGNoIHsKICAgICAgc2V0RXJyb3IoIlNvbWV0aGluZyB3ZW50IHdyb25nIik7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHgtNCIKICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogIiMwYTBhMGEiIH19PgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LXNtIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNCBoLTE0IGJnLWdvbGQgcm91bmRlZC14bCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBteC1hdXRvIG1iLTQiPgogICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy03IGgtNyB0ZXh0LWJsYWNrIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyMCAyMCI+CiAgICAgICAgICAgICAgPHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOCAxMGE4IDggMCAxMS0xNiAwIDggOCAwIDAxMTYgMHptLTYtM2EyIDIgMCAxMS00IDAgMiAyIDAgMDE0IDB6bS0yIDRhNSA1IDAgMDAtNC41NDYgMi45MTZBNS45ODYgNS45ODYgMCAwMDEwIDE2YTUuOTg2IDUuOTg2IDAgMDA0LjU0Ni0yLjA4NEE1IDUgMCAwMDEwIDExeiIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCI+QWRtaW4gUGFuZWw8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkIHRleHQtc20gbXQtMSI+U3RyZWFtVmF1bHQgRGFzaGJvYXJkPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc3VyZmFjZSBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLTJ4bCBwLTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTQiPgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZ3JheS0zMDAgbWItMiI+UGFzc3dvcmQ8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICB2YWx1ZT17cGFzc3dvcmR9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgb25LZXlEb3duPXsoZSkgPT4gZS5rZXkgPT09ICJFbnRlciIgJiYgaGFuZGxlTG9naW4oKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iRW50ZXIgYWRtaW4gcGFzc3dvcmQiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbnB1dC1maWVsZCIKICAgICAgICAgICAgICBhdXRvRm9jdXMKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAge2Vycm9yICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTQgYmctcmVkLTUwMC8xMCBib3JkZXIgYm9yZGVyLXJlZC01MDAvMzAgcm91bmRlZC1sZyBweC00IHB5LTMgdGV4dC1yZWQtNDAwIHRleHQtc20iPgogICAgICAgICAgICAgIHtlcnJvcn0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtoYW5kbGVMb2dpbn0gZGlzYWJsZWQ9e2xvYWRpbmd9IGNsYXNzTmFtZT0iYnRuLWdvbGQgdy1mdWxsIHB5LTMiPgogICAgICAgICAgICB7bG9hZGluZyA/ICJTaWduaW5nIGluLi4uIiA6ICJTaWduIEluIn0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K"}
+"use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
+export default function AdminLoginPage() {
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const router = useRouter();
+
+  async function handleLogin() {
+    if (!password) { setError("Password required"); return; }
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/admin/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (!res.ok) { setError("Incorrect password"); setLoading(false); return; }
+      router.push("/admin");
+      router.refresh();
+    } catch {
+      setError("Something went wrong");
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="min-h-screen flex items-center justify-center px-4"
+      style={{ background: "#0a0a0a" }}>
+      <div className="w-full max-w-sm">
+        <div className="text-center mb-8">
+          <div className="w-14 h-14 bg-gold rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg className="w-7 h-7 text-black" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" />
+            </svg>
+          </div>
+          <h1 className="text-2xl font-bold">Admin Panel</h1>
+          <p className="text-muted text-sm mt-1">StreamVault Dashboard</p>
+        </div>
+
+        <div className="bg-surface border border-border rounded-2xl p-6">
+          <div className="mb-4">
+            <label className="block text-sm font-medium text-gray-300 mb-2">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleLogin()}
+              placeholder="Enter admin password"
+              className="input-field"
+              autoFocus
+            />
+          </div>
+          {error && (
+            <div className="mb-4 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-3 text-red-400 text-sm">
+              {error}
+            </div>
+          )}
+          <button onClick={handleLogin} disabled={loading} className="btn-gold w-full py-3">
+            {loading ? "Signing in..." : "Sign In"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

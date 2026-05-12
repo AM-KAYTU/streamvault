@@ -1,1 +1,96 @@
-{"data":"Y29uc3QgUEFZU1RBQ0tfU0VDUkVUID0gcHJvY2Vzcy5lbnYuUEFZU1RBQ0tfU0VDUkVUX0tFWSE7CmNvbnN0IEJBU0VfVVJMID0gImh0dHBzOi8vYXBpLnBheXN0YWNrLmNvIjsKCmFzeW5jIGZ1bmN0aW9uIHBheXN0YWNrUmVxdWVzdDxUPigKICBwYXRoOiBzdHJpbmcsCiAgb3B0aW9uczogUmVxdWVzdEluaXQgPSB7fQopOiBQcm9taXNlPFQ+IHsKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgJHtCQVNFX1VSTH0ke3BhdGh9YCwgewogICAgLi4ub3B0aW9ucywKICAgIGhlYWRlcnM6IHsKICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke1BBWVNUQUNLX1NFQ1JFVH1gLAogICAgICAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAuLi5vcHRpb25zLmhlYWRlcnMsCiAgICB9LAogIH0pOwogIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpOwogIGlmICghZGF0YS5zdGF0dXMpIHRocm93IG5ldyBFcnJvcihkYXRhLm1lc3NhZ2UgfHwgIlBheXN0YWNrIHJlcXVlc3QgZmFpbGVkIik7CiAgcmV0dXJuIGRhdGE7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgSW5pdGlhbGl6ZVBhcmFtcyB7CiAgZW1haWw6IHN0cmluZzsKICBhbW91bnQ6IG51bWJlcjsgLy8gaW4ga29iby9wZXNld2FzL2NlbnRzCiAgcmVmZXJlbmNlOiBzdHJpbmc7CiAgY2FsbGJhY2tfdXJsOiBzdHJpbmc7CiAgbWV0YWRhdGE/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICBwbGFuPzogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIEluaXRpYWxpemVSZXNwb25zZSB7CiAgc3RhdHVzOiBib29sZWFuOwogIG1lc3NhZ2U6IHN0cmluZzsKICBkYXRhOiB7CiAgICBhdXRob3JpemF0aW9uX3VybDogc3RyaW5nOwogICAgYWNjZXNzX2NvZGU6IHN0cmluZzsKICAgIHJlZmVyZW5jZTogc3RyaW5nOwogIH07Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBpbml0aWFsaXplVHJhbnNhY3Rpb24oCiAgcGFyYW1zOiBJbml0aWFsaXplUGFyYW1zCik6IFByb21pc2U8SW5pdGlhbGl6ZVJlc3BvbnNlPiB7CiAgcmV0dXJuIHBheXN0YWNrUmVxdWVzdDxJbml0aWFsaXplUmVzcG9uc2U+KCIvdHJhbnNhY3Rpb24vaW5pdGlhbGl6ZSIsIHsKICAgIG1ldGhvZDogIlBPU1QiLAogICAgYm9keTogSlNPTi5zdHJpbmdpZnkocGFyYW1zKSwKICB9KTsKfQoKZXhwb3J0IGludGVyZmFjZSBWZXJpZnlSZXNwb25zZSB7CiAgc3RhdHVzOiBib29sZWFuOwogIG1lc3NhZ2U6IHN0cmluZzsKICBkYXRhOiB7CiAgICBzdGF0dXM6IHN0cmluZzsKICAgIHJlZmVyZW5jZTogc3RyaW5nOwogICAgYW1vdW50OiBudW1iZXI7CiAgICBtZXRhZGF0YTogUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgICBjdXN0b21lcjogeyBlbWFpbDogc3RyaW5nIH07CiAgICBwbGFuPzogeyBwbGFuX2NvZGU6IHN0cmluZzsgbmFtZTogc3RyaW5nIH07CiAgICBzdWJzY3JpcHRpb24/OiB7IHN1YnNjcmlwdGlvbl9jb2RlOiBzdHJpbmc7IHRva2VuOiBzdHJpbmcgfTsKICB9Owp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdmVyaWZ5VHJhbnNhY3Rpb24ocmVmZXJlbmNlOiBzdHJpbmcpOiBQcm9taXNlPFZlcmlmeVJlc3BvbnNlPiB7CiAgcmV0dXJuIHBheXN0YWNrUmVxdWVzdDxWZXJpZnlSZXNwb25zZT4oYC90cmFuc2FjdGlvbi92ZXJpZnkvJHtyZWZlcmVuY2V9YCk7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQ3JlYXRlUGxhblJlc3BvbnNlIHsKICBzdGF0dXM6IGJvb2xlYW47CiAgZGF0YTogeyBwbGFuX2NvZGU6IHN0cmluZzsgbmFtZTogc3RyaW5nOyBhbW91bnQ6IG51bWJlcjsgaW50ZXJ2YWw6IHN0cmluZyB9Owp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0T3JDcmVhdGVQbGFuKAogIG5hbWU6IHN0cmluZywKICBhbW91bnQ6IG51bWJlciwKICBpbnRlcnZhbDogIm1vbnRobHkiIHwgImFubnVhbGx5IgopOiBQcm9taXNlPHN0cmluZz4gewogIC8vIExpc3QgZXhpc3RpbmcgcGxhbnMgYW5kIGZpbmQgYnkgbmFtZQogIGNvbnN0IGxpc3QgPSBhd2FpdCBwYXlzdGFja1JlcXVlc3Q8ewogICAgc3RhdHVzOiBib29sZWFuOwogICAgZGF0YTogQXJyYXk8eyBwbGFuX2NvZGU6IHN0cmluZzsgbmFtZTogc3RyaW5nIH0+OwogIH0+KCIvcGxhbiIpOwogIGNvbnN0IGV4aXN0aW5nID0gbGlzdC5kYXRhLmZpbmQoKHApID0+IHAubmFtZSA9PT0gbmFtZSk7CiAgaWYgKGV4aXN0aW5nKSByZXR1cm4gZXhpc3RpbmcucGxhbl9jb2RlOwoKICBjb25zdCBjcmVhdGVkID0gYXdhaXQgcGF5c3RhY2tSZXF1ZXN0PENyZWF0ZVBsYW5SZXNwb25zZT4oIi9wbGFuIiwgewogICAgbWV0aG9kOiAiUE9TVCIsCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IG5hbWUsIGFtb3VudCwgaW50ZXJ2YWwgfSksCiAgfSk7CiAgcmV0dXJuIGNyZWF0ZWQuZGF0YS5wbGFuX2NvZGU7Cn0KCmV4cG9ydCBmdW5jdGlvbiB2ZXJpZnlXZWJob29rU2lnbmF0dXJlKGJvZHk6IHN0cmluZywgc2lnbmF0dXJlOiBzdHJpbmcpOiBib29sZWFuIHsKICBjb25zdCB7IGNyZWF0ZUhtYWMgfSA9IHJlcXVpcmUoImNyeXB0byIpIGFzIHR5cGVvZiBpbXBvcnQoImNyeXB0byIpOwogIGNvbnN0IGhhc2ggPSBjcmVhdGVIbWFjKCJzaGE1MTIiLCBQQVlTVEFDS19TRUNSRVQpLnVwZGF0ZShib2R5KS5kaWdlc3QoImhleCIpOwogIHJldHVybiBoYXNoID09PSBzaWduYXR1cmU7Cn0K"}
+const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET_KEY!;
+const BASE_URL = "https://api.paystack.co";
+
+async function paystackRequest<T>(
+  path: string,
+  options: RequestInit = {}
+): Promise<T> {
+  const res = await fetch(`${BASE_URL}${path}`, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${PAYSTACK_SECRET}`,
+      "Content-Type": "application/json",
+      ...options.headers,
+    },
+  });
+  const data = await res.json();
+  if (!data.status) throw new Error(data.message || "Paystack request failed");
+  return data;
+}
+
+export interface InitializeParams {
+  email: string;
+  amount: number; // in kobo/pesewas/cents
+  reference: string;
+  callback_url: string;
+  metadata?: Record<string, unknown>;
+  plan?: string;
+}
+
+export interface InitializeResponse {
+  status: boolean;
+  message: string;
+  data: {
+    authorization_url: string;
+    access_code: string;
+    reference: string;
+  };
+}
+
+export async function initializeTransaction(
+  params: InitializeParams
+): Promise<InitializeResponse> {
+  return paystackRequest<InitializeResponse>("/transaction/initialize", {
+    method: "POST",
+    body: JSON.stringify(params),
+  });
+}
+
+export interface VerifyResponse {
+  status: boolean;
+  message: string;
+  data: {
+    status: string;
+    reference: string;
+    amount: number;
+    metadata: Record<string, unknown>;
+    customer: { email: string };
+    plan?: { plan_code: string; name: string };
+    subscription?: { subscription_code: string; token: string };
+  };
+}
+
+export async function verifyTransaction(reference: string): Promise<VerifyResponse> {
+  return paystackRequest<VerifyResponse>(`/transaction/verify/${reference}`);
+}
+
+export interface CreatePlanResponse {
+  status: boolean;
+  data: { plan_code: string; name: string; amount: number; interval: string };
+}
+
+export async function getOrCreatePlan(
+  name: string,
+  amount: number,
+  interval: "monthly" | "annually"
+): Promise<string> {
+  // List existing plans and find by name
+  const list = await paystackRequest<{
+    status: boolean;
+    data: Array<{ plan_code: string; name: string }>;
+  }>("/plan");
+  const existing = list.data.find((p) => p.name === name);
+  if (existing) return existing.plan_code;
+
+  const created = await paystackRequest<CreatePlanResponse>("/plan", {
+    method: "POST",
+    body: JSON.stringify({ name, amount, interval }),
+  });
+  return created.data.plan_code;
+}
+
+export function verifyWebhookSignature(body: string, signature: string): boolean {
+  const { createHmac } = require("crypto") as typeof import("crypto");
+  const hash = createHmac("sha512", PAYSTACK_SECRET).update(body).digest("hex");
+  return hash === signature;
+}

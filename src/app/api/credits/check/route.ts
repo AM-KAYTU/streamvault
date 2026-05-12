@@ -1,1 +1,31 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgcHJpc21hIH0gZnJvbSAiQC9saWIvcHJpc21hIjsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBHRVQocmVxOiBOZXh0UmVxdWVzdCkgewogIGNvbnN0IHBpbiA9IHJlcS5uZXh0VXJsLnNlYXJjaFBhcmFtcy5nZXQoInBpbiIpPy50b1VwcGVyQ2FzZSgpLnJlcGxhY2UoLy0vZywgIiIpOwogIGlmICghcGluIHx8IHBpbi5sZW5ndGggIT09IDYpIHsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IHZhbGlkOiBmYWxzZSwgZXJyb3I6ICJJbnZhbGlkIFBJTiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICB9CgogIGNvbnN0IHB1cmNoYXNlID0gYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS5maW5kVW5pcXVlKHsKICAgIHdoZXJlOiB7IHBpbiB9LAogICAgaW5jbHVkZTogeyBwYWNrOiB0cnVlIH0sCiAgfSk7CgogIGlmICghcHVyY2hhc2UpIHsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IHZhbGlkOiBmYWxzZSwgZXJyb3I6ICJQSU4gbm90IGZvdW5kIiB9LCB7IHN0YXR1czogNDA0IH0pOwogIH0KCiAgY29uc3Qgc2Vjb25kc0xlZnQgPSBwdXJjaGFzZS5zZWNvbmRzVG90YWwgLSBwdXJjaGFzZS5zZWNvbmRzVXNlZDsKICBjb25zdCBtaW51dGVzTGVmdCA9IE1hdGguZmxvb3Ioc2Vjb25kc0xlZnQgLyA2MCk7CgogIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7CiAgICB2YWxpZDogc2Vjb25kc0xlZnQgPiAwLAogICAgZXhoYXVzdGVkOiBzZWNvbmRzTGVmdCA8PSAwLAogICAgc2Vjb25kc0xlZnQsCiAgICBtaW51dGVzTGVmdCwKICAgIHNlY29uZHNUb3RhbDogcHVyY2hhc2Uuc2Vjb25kc1RvdGFsLAogICAgbWludXRlc1RvdGFsOiBNYXRoLmZsb29yKHB1cmNoYXNlLnNlY29uZHNUb3RhbCAvIDYwKSwKICAgIHBhY2tOYW1lOiBwdXJjaGFzZS5wYWNrLm5hbWUsCiAgfSk7Cn0K"}
+import { NextRequest, NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
+
+export async function GET(req: NextRequest) {
+  const pin = req.nextUrl.searchParams.get("pin")?.toUpperCase().replace(/-/g, "");
+  if (!pin || pin.length !== 6) {
+    return NextResponse.json({ valid: false, error: "Invalid PIN" }, { status: 400 });
+  }
+
+  const purchase = await prisma.packPurchase.findUnique({
+    where: { pin },
+    include: { pack: true },
+  });
+
+  if (!purchase) {
+    return NextResponse.json({ valid: false, error: "PIN not found" }, { status: 404 });
+  }
+
+  const secondsLeft = purchase.secondsTotal - purchase.secondsUsed;
+  const minutesLeft = Math.floor(secondsLeft / 60);
+
+  return NextResponse.json({
+    valid: secondsLeft > 0,
+    exhausted: secondsLeft <= 0,
+    secondsLeft,
+    minutesLeft,
+    secondsTotal: purchase.secondsTotal,
+    minutesTotal: Math.floor(purchase.secondsTotal / 60),
+    packName: purchase.pack.name,
+  });
+}

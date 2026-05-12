@@ -1,1 +1,26 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgc2lnbkFkbWluVG9rZW4gfSBmcm9tICJAL2xpYi90b2tlbnMiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBOZXh0UmVxdWVzdCkgewogIGNvbnN0IHsgcGFzc3dvcmQgfSA9IGF3YWl0IHJlcS5qc29uKCk7CgogIGlmIChwYXNzd29yZCAhPT0gcHJvY2Vzcy5lbnYuQURNSU5fUEFTU1dPUkQpIHsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiSW52YWxpZCBwYXNzd29yZCIgfSwgeyBzdGF0dXM6IDQwMSB9KTsKICB9CgogIGNvbnN0IHRva2VuID0gYXdhaXQgc2lnbkFkbWluVG9rZW4oKTsKICBjb25zdCByZXMgPSBOZXh0UmVzcG9uc2UuanNvbih7IG9rOiB0cnVlIH0pOwogIHJlcy5jb29raWVzLnNldCgiYWRtaW5fdG9rZW4iLCB0b2tlbiwgewogICAgaHR0cE9ubHk6IHRydWUsCiAgICBzYW1lU2l0ZTogImxheCIsCiAgICBtYXhBZ2U6IDYwICogNjAgKiAxMiwgLy8gMTIgaG91cnMKICAgIHBhdGg6ICIvIiwKICB9KTsKICByZXR1cm4gcmVzOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gREVMRVRFKCkgewogIGNvbnN0IHJlcyA9IE5leHRSZXNwb25zZS5qc29uKHsgb2s6IHRydWUgfSk7CiAgcmVzLmNvb2tpZXMuZGVsZXRlKCJhZG1pbl90b2tlbiIpOwogIHJldHVybiByZXM7Cn0K"}
+import { NextRequest, NextResponse } from "next/server";
+import { signAdminToken } from "@/lib/tokens";
+
+export async function POST(req: NextRequest) {
+  const { password } = await req.json();
+
+  if (password !== process.env.ADMIN_PASSWORD) {
+    return NextResponse.json({ error: "Invalid password" }, { status: 401 });
+  }
+
+  const token = await signAdminToken();
+  const res = NextResponse.json({ ok: true });
+  res.cookies.set("admin_token", token, {
+    httpOnly: true,
+    sameSite: "lax",
+    maxAge: 60 * 60 * 12, // 12 hours
+    path: "/",
+  });
+  return res;
+}
+
+export async function DELETE() {
+  const res = NextResponse.json({ ok: true });
+  res.cookies.delete("admin_token");
+  return res;
+}

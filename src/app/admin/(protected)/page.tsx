@@ -1,1 +1,111 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmludGVyZmFjZSBBbmFseXRpY3MgewogIHRvdGFsczogewogICAgdmlkZW9zOiBudW1iZXI7IHRvdGFsUHVyY2hhc2VzOiBudW1iZXI7IGFjdGl2ZVB1cmNoYXNlczogbnVtYmVyOwogICAgZXhoYXVzdGVkUHVyY2hhc2VzOiBudW1iZXI7IHRvdGFsUmV2ZW51ZTogbnVtYmVyOyB0b3RhbFdhdGNoTWludXRlczogbnVtYmVyOwogIH07CiAgdG9wVmlkZW9zOiBBcnJheTx7IGlkOiBzdHJpbmc7IHRpdGxlOiBzdHJpbmc7IHZpZXdzOiBudW1iZXI7IF9jb3VudDogeyB3YXRjaEV2ZW50czogbnVtYmVyIH0gfT47CiAgcmVjZW50UHVyY2hhc2VzOiBBcnJheTx7IGlkOiBzdHJpbmc7IHBpbjogc3RyaW5nOyBjcmVhdGVkQXQ6IHN0cmluZzsgcGFjazogeyBuYW1lOiBzdHJpbmc7IHByaWNlOiBudW1iZXIgfSB9PjsKfQoKZnVuY3Rpb24gU3RhdCh7IGxhYmVsLCB2YWx1ZSwgc3ViLCBjb2xvciA9ICJ0ZXh0LXdoaXRlIiB9OiB7IGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmcgfCBudW1iZXI7IHN1Yj86IHN0cmluZzsgY29sb3I/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc3VyZmFjZSBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLTJ4bCBwLTYiPgogICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQgdGV4dC1zbSBmb250LW1lZGl1bSBtYi0yIj57bGFiZWx9PC9wPgogICAgICA8cCBjbGFzc05hbWU9e2B0ZXh0LTN4bCBmb250LWJvbGQgJHtjb2xvcn1gfT57dmFsdWV9PC9wPgogICAgICB7c3ViICYmIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWdyYXktNjAwIG10LTEiPntzdWJ9PC9wPn0KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFkbWluRGFzaGJvYXJkKCkgewogIGNvbnN0IFtkYXRhLCBzZXREYXRhXSA9IHVzZVN0YXRlPEFuYWx5dGljcyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwogIGNvbnN0IHN5bWJvbCA9IHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX0NVUlJFTkNZX1NZTUJPTCB8fCAi4oK1IjsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGZldGNoKCIvYXBpL2FkbWluL2FuYWx5dGljcyIpLnRoZW4oKHIpID0+IHIuanNvbigpKS50aGVuKHNldERhdGEpLmZpbmFsbHkoKCkgPT4gc2V0TG9hZGluZyhmYWxzZSkpOwogIH0sIFtdKTsKCiAgaWYgKGxvYWRpbmcpIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCBnYXAtNiI+CiAgICAgIHtbLi4uQXJyYXkoNCldLm1hcCgoXywgaSkgPT4gPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iaC0zMiBiZy1zdXJmYWNlIGJvcmRlciBib3JkZXItYm9yZGVyIHJvdW5kZWQtMnhsIHNoaW1tZXIiIC8+KX0KICAgIDwvZGl2PgogICk7CgogIGlmICghZGF0YSkgcmV0dXJuIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZCI+RmFpbGVkIHRvIGxvYWQgYW5hbHl0aWNzLjwvcD47CiAgY29uc3QgeyB0b3RhbHMsIHRvcFZpZGVvcywgcmVjZW50UHVyY2hhc2VzIH0gPSBkYXRhOwoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi04Ij4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIj5EYXNoYm9hcmQ8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkIHRleHQtc20gbXQtMC41Ij5TdHJlYW1WYXVsdCBhdCBhIGdsYW5jZTwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1ncmF5LTYwMCBiZy1zdXJmYWNlLWhpZ2ggYm9yZGVyIGJvcmRlci1ib3JkZXIgcm91bmRlZC1sZyBweC0zIHB5LTEuNSI+CiAgICAgICAgICB7bmV3IERhdGUoKS50b0xvY2FsZURhdGVTdHJpbmcoImVuLVVTIiwgeyBkYXRlU3R5bGU6ICJsb25nIiB9KX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQgZ2FwLTYgbWItMTAiPgogICAgICAgIDxTdGF0IGxhYmVsPSJUb3RhbCBSZXZlbnVlIiB2YWx1ZT17YCR7c3ltYm9sfSR7dG90YWxzLnRvdGFsUmV2ZW51ZS50b0xvY2FsZVN0cmluZygpfWB9IGNvbG9yPSJ0ZXh0LWdvbGQiIC8+CiAgICAgICAgPFN0YXQgbGFiZWw9IkFjdGl2ZSBQSU5zIiB2YWx1ZT17dG90YWxzLmFjdGl2ZVB1cmNoYXNlc30gc3ViPSJUaW1lIHJlbWFpbmluZyIgY29sb3I9InRleHQtZ3JlZW4tNDAwIiAvPgogICAgICAgIDxTdGF0IGxhYmVsPSJUb3RhbCBTYWxlcyIgdmFsdWU9e3RvdGFscy50b3RhbFB1cmNoYXNlc30gc3ViPSJBbGwgdGltZSBwdXJjaGFzZXMiIC8+CiAgICAgICAgPFN0YXQgbGFiZWw9IldhdGNoIFRpbWUgU2VydmVkIiB2YWx1ZT17YCR7dG90YWxzLnRvdGFsV2F0Y2hNaW51dGVzLnRvTG9jYWxlU3RyaW5nKCl9IG1pbmB9IHN1Yj17YCR7dG90YWxzLmV4aGF1c3RlZFB1cmNoYXNlc30gZXhoYXVzdGVkIFBJTnNgfSAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0yIGdhcC04Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc3VyZmFjZSBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLTJ4bCBwLTYiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1ib2xkIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMSBoLTUgYmctZ29sZCByb3VuZGVkLWZ1bGwiIC8+UmVjZW50IFNhbGVzCiAgICAgICAgICA8L2gyPgogICAgICAgICAge3JlY2VudFB1cmNoYXNlcy5sZW5ndGggPT09IDAgPyA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQgdGV4dC1zbSI+Tm8gc2FsZXMgeWV0LjwvcD4gOiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICAgIHtyZWNlbnRQdXJjaGFzZXMubWFwKChwKSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2IGtleT17cC5pZH0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHktMiBib3JkZXItYiBib3JkZXItYm9yZGVyIGxhc3Q6Ym9yZGVyLTAiPgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1vbm8gZm9udC1tZWRpdW0gdGV4dC1nb2xkIHRyYWNraW5nLXdpZGVyIj4KICAgICAgICAgICAgICAgICAgICAgIHtwLnBpbi5zbGljZSgwLCAzKX0te3AucGluLnNsaWNlKDMpfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZCI+e3AucGFjay5uYW1lfSDCtyB7bmV3IERhdGUocC5jcmVhdGVkQXQpLnRvTG9jYWxlRGF0ZVN0cmluZygpfTwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1nb2xkIHRleHQtc20gZm9udC1ib2xkIj57c3ltYm9sfXtwLnBhY2sucHJpY2UudG9Mb2NhbGVTdHJpbmcoKX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc3VyZmFjZSBib3JkZXIgYm9yZGVyLWJvcmRlciByb3VuZGVkLTJ4bCBwLTYiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1ib2xkIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMSBoLTUgYmctZ29sZCByb3VuZGVkLWZ1bGwiIC8+VG9wIFZpZGVvcwogICAgICAgICAgPC9oMj4KICAgICAgICAgIHt0b3BWaWRlb3MubGVuZ3RoID09PSAwID8gPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkIHRleHQtc20iPk5vIHZpZGVvcyB5ZXQuPC9wPiA6ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAge3RvcFZpZGVvcy5tYXAoKHYsIGkpID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXt2LmlkfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00IHB5LTIgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBsYXN0OmJvcmRlci0wIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1ncmF5LTcwMCB3LTYgdGV4dC1jZW50ZXIiPntpICsgMX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj17YC92aWRlby8ke3YuaWR9YH0gdGFyZ2V0PSJfYmxhbmsiIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIGhvdmVyOnRleHQtZ29sZCB0cmFuc2l0aW9uLWNvbG9ycyB0cnVuY2F0ZSBibG9jayI+CiAgICAgICAgICAgICAgICAgICAgICB7di50aXRsZX0KICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQiPnt2Ll9jb3VudC53YXRjaEV2ZW50c30gd2F0Y2ggZXZlbnRzPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtcmlnaHQgc2hyaW5rLTAiPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1nb2xkIj57di52aWV3cy50b0xvY2FsZVN0cmluZygpfTwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1ncmF5LTYwMCI+dmlld3M8L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+
+interface Analytics {
+  totals: {
+    videos: number; totalPurchases: number; activePurchases: number;
+    exhaustedPurchases: number; totalRevenue: number; totalWatchMinutes: number;
+  };
+  topVideos: Array<{ id: string; title: string; views: number; _count: { watchEvents: number } }>;
+  recentPurchases: Array<{ id: string; pin: string; createdAt: string; pack: { name: string; price: number } }>;
+}
+
+function Stat({ label, value, sub, color = "text-white" }: { label: string; value: string | number; sub?: string; color?: string }) {
+  return (
+    <div className="bg-surface border border-border rounded-2xl p-6">
+      <p className="text-muted text-sm font-medium mb-2">{label}</p>
+      <p className={`text-3xl font-bold ${color}`}>{value}</p>
+      {sub && <p className="text-xs text-gray-600 mt-1">{sub}</p>}
+    </div>
+  );
+}
+
+export default function AdminDashboard() {
+  const [data, setData] = useState<Analytics | null>(null);
+  const [loading, setLoading] = useState(true);
+  const symbol = process.env.NEXT_PUBLIC_CURRENCY_SYMBOL || "₵";
+
+  useEffect(() => {
+    fetch("/api/admin/analytics").then((r) => r.json()).then(setData).finally(() => setLoading(false));
+  }, []);
+
+  if (loading) return (
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+      {[...Array(4)].map((_, i) => <div key={i} className="h-32 bg-surface border border-border rounded-2xl shimmer" />)}
+    </div>
+  );
+
+  if (!data) return <p className="text-muted">Failed to load analytics.</p>;
+  const { totals, topVideos, recentPurchases } = data;
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h1 className="text-2xl font-bold">Dashboard</h1>
+          <p className="text-muted text-sm mt-0.5">StreamVault at a glance</p>
+        </div>
+        <span className="text-xs text-gray-600 bg-surface-high border border-border rounded-lg px-3 py-1.5">
+          {new Date().toLocaleDateString("en-US", { dateStyle: "long" })}
+        </span>
+      </div>
+
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+        <Stat label="Total Revenue" value={`${symbol}${totals.totalRevenue.toLocaleString()}`} color="text-gold" />
+        <Stat label="Active PINs" value={totals.activePurchases} sub="Time remaining" color="text-green-400" />
+        <Stat label="Total Sales" value={totals.totalPurchases} sub="All time purchases" />
+        <Stat label="Watch Time Served" value={`${totals.totalWatchMinutes.toLocaleString()} min`} sub={`${totals.exhaustedPurchases} exhausted PINs`} />
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="bg-surface border border-border rounded-2xl p-6">
+          <h2 className="font-bold flex items-center gap-2 mb-5">
+            <span className="w-1 h-5 bg-gold rounded-full" />Recent Sales
+          </h2>
+          {recentPurchases.length === 0 ? <p className="text-muted text-sm">No sales yet.</p> : (
+            <div className="space-y-3">
+              {recentPurchases.map((p) => (
+                <div key={p.id} className="flex items-center justify-between py-2 border-b border-border last:border-0">
+                  <div>
+                    <p className="text-sm font-mono font-medium text-gold tracking-wider">
+                      {p.pin.slice(0, 3)}-{p.pin.slice(3)}
+                    </p>
+                    <p className="text-xs text-muted">{p.pack.name} · {new Date(p.createdAt).toLocaleDateString()}</p>
+                  </div>
+                  <span className="text-gold text-sm font-bold">{symbol}{p.pack.price.toLocaleString()}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div className="bg-surface border border-border rounded-2xl p-6">
+          <h2 className="font-bold flex items-center gap-2 mb-5">
+            <span className="w-1 h-5 bg-gold rounded-full" />Top Videos
+          </h2>
+          {topVideos.length === 0 ? <p className="text-muted text-sm">No videos yet.</p> : (
+            <div className="space-y-3">
+              {topVideos.map((v, i) => (
+                <div key={v.id} className="flex items-center gap-4 py-2 border-b border-border last:border-0">
+                  <span className="text-2xl font-bold text-gray-700 w-6 text-center">{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <Link href={`/video/${v.id}`} target="_blank" className="text-sm font-medium text-white hover:text-gold transition-colors truncate block">
+                      {v.title}
+                    </Link>
+                    <p className="text-xs text-muted">{v._count.watchEvents} watch events</p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <p className="text-sm font-bold text-gold">{v.views.toLocaleString()}</p>
+                    <p className="text-xs text-gray-600">views</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

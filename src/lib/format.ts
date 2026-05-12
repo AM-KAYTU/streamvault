@@ -1,1 +1,12 @@
-{"data":"ZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdEN1cnJlbmN5KGFtb3VudDogbnVtYmVyKTogc3RyaW5nIHsKICBjb25zdCBzeW1ib2wgPSBwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19DVVJSRU5DWV9TWU1CT0wgfHwgIuKCtSI7CiAgcmV0dXJuIGAke3N5bWJvbH0ke2Ftb3VudC50b0xvY2FsZVN0cmluZygpfWA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXREdXJhdGlvbihzZWNvbmRzOiBudW1iZXIpOiBzdHJpbmcgewogIGNvbnN0IGggPSBNYXRoLmZsb29yKHNlY29uZHMgLyAzNjAwKTsKICBjb25zdCBtID0gTWF0aC5mbG9vcigoc2Vjb25kcyAlIDM2MDApIC8gNjApOwogIGNvbnN0IHMgPSBzZWNvbmRzICUgNjA7CiAgaWYgKGggPiAwKSByZXR1cm4gYCR7aH06JHtTdHJpbmcobSkucGFkU3RhcnQoMiwgIjAiKX06JHtTdHJpbmcocykucGFkU3RhcnQoMiwgIjAiKX1gOwogIHJldHVybiBgJHttfToke1N0cmluZyhzKS5wYWRTdGFydCgyLCAiMCIpfWA7Cn0K"}
+export function formatCurrency(amount: number): string {
+  const symbol = process.env.NEXT_PUBLIC_CURRENCY_SYMBOL || "₵";
+  return `${symbol}${amount.toLocaleString()}`;
+}
+
+export function formatDuration(seconds: number): string {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  if (h > 0) return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  return `${m}:${String(s).padStart(2, "0")}`;
+}

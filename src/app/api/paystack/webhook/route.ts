@@ -1,1 +1,44 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlcXVlc3QsIE5leHRSZXNwb25zZSB9IGZyb20gIm5leHQvc2VydmVyIjsKaW1wb3J0IHsgdmVyaWZ5V2ViaG9va1NpZ25hdHVyZSB9IGZyb20gIkAvbGliL3BheXN0YWNrIjsKaW1wb3J0IHsgcHJpc21hIH0gZnJvbSAiQC9saWIvcHJpc21hIjsKaW1wb3J0IHsgZ2VuZXJhdGVQaW4gfSBmcm9tICJAL2xpYi9waW4iOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBOZXh0UmVxdWVzdCkgewogIGNvbnN0IGJvZHkgPSBhd2FpdCByZXEudGV4dCgpOwogIGNvbnN0IHNpZ25hdHVyZSA9IHJlcS5oZWFkZXJzLmdldCgieC1wYXlzdGFjay1zaWduYXR1cmUiKSB8fCAiIjsKCiAgaWYgKCF2ZXJpZnlXZWJob29rU2lnbmF0dXJlKGJvZHksIHNpZ25hdHVyZSkpIHsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiSW52YWxpZCBzaWduYXR1cmUiIH0sIHsgc3RhdHVzOiA0MDEgfSk7CiAgfQoKICBjb25zdCBldmVudCA9IEpTT04ucGFyc2UoYm9keSk7CgogIGlmIChldmVudC5ldmVudCA9PT0gImNoYXJnZS5zdWNjZXNzIikgewogICAgY29uc3QgeyByZWZlcmVuY2UsIG1ldGFkYXRhIH0gPSBldmVudC5kYXRhOwogICAgY29uc3QgbWV0YSA9IG1ldGFkYXRhIGFzIHsgcGFja0lkPzogc3RyaW5nIH07CgogICAgY29uc3QgZXhpc3RzID0gYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS5maW5kVW5pcXVlKHsgd2hlcmU6IHsgcGF5c3RhY2tSZWY6IHJlZmVyZW5jZSB9IH0pOwogICAgaWYgKGV4aXN0cyB8fCAhbWV0YT8ucGFja0lkKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyByZWNlaXZlZDogdHJ1ZSB9KTsKCiAgICBjb25zdCBwYWNrID0gYXdhaXQgcHJpc21hLmNyZWRpdFBhY2suZmluZFVuaXF1ZSh7IHdoZXJlOiB7IGlkOiBtZXRhLnBhY2tJZCB9IH0pOwogICAgaWYgKCFwYWNrKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyByZWNlaXZlZDogdHJ1ZSB9KTsKCiAgICBsZXQgcGluID0gZ2VuZXJhdGVQaW4oKTsKICAgIGxldCBhdHRlbXB0cyA9IDA7CiAgICB3aGlsZSAoYXdhaXQgcHJpc21hLnBhY2tQdXJjaGFzZS5maW5kVW5pcXVlKHsgd2hlcmU6IHsgcGluIH0gfSkgJiYgYXR0ZW1wdHMgPCAxMCkgewogICAgICBwaW4gPSBnZW5lcmF0ZVBpbigpOwogICAgICBhdHRlbXB0cysrOwogICAgfQoKICAgIGF3YWl0IHByaXNtYS5wYWNrUHVyY2hhc2UuY3JlYXRlKHsKICAgICAgZGF0YTogewogICAgICAgIHBpbiwKICAgICAgICBzZWNvbmRzVG90YWw6IHBhY2subWludXRlcyAqIDYwLAogICAgICAgIHBheXN0YWNrUmVmOiByZWZlcmVuY2UsCiAgICAgICAgcGFja0lkOiBwYWNrLmlkLAogICAgICB9LAogICAgfSk7CiAgfQoKICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyByZWNlaXZlZDogdHJ1ZSB9KTsKfQo="}
+import { NextRequest, NextResponse } from "next/server";
+import { verifyWebhookSignature } from "@/lib/paystack";
+import { prisma } from "@/lib/prisma";
+import { generatePin } from "@/lib/pin";
+
+export async function POST(req: NextRequest) {
+  const body = await req.text();
+  const signature = req.headers.get("x-paystack-signature") || "";
+
+  if (!verifyWebhookSignature(body, signature)) {
+    return NextResponse.json({ error: "Invalid signature" }, { status: 401 });
+  }
+
+  const event = JSON.parse(body);
+
+  if (event.event === "charge.success") {
+    const { reference, metadata } = event.data;
+    const meta = metadata as { packId?: string };
+
+    const exists = await prisma.packPurchase.findUnique({ where: { paystackRef: reference } });
+    if (exists || !meta?.packId) return NextResponse.json({ received: true });
+
+    const pack = await prisma.creditPack.findUnique({ where: { id: meta.packId } });
+    if (!pack) return NextResponse.json({ received: true });
+
+    let pin = generatePin();
+    let attempts = 0;
+    while (await prisma.packPurchase.findUnique({ where: { pin } }) && attempts < 10) {
+      pin = generatePin();
+      attempts++;
+    }
+
+    await prisma.packPurchase.create({
+      data: {
+        pin,
+        secondsTotal: pack.minutes * 60,
+        paystackRef: reference,
+        packId: pack.id,
+      },
+    });
+  }
+
+  return NextResponse.json({ received: true });
+}

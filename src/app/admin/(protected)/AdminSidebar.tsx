@@ -1,1 +1,74 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgdXNlUGF0aG5hbWUsIHVzZVJvdXRlciB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7Cgpjb25zdCBOQVYgPSBbCiAgewogICAgaHJlZjogIi9hZG1pbiIsCiAgICBsYWJlbDogIkRhc2hib2FyZCIsCiAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezJ9IGQ9Ik00IDVhMSAxIDAgMDExLTFoNGExIDEgMCAwMTEgMXY0YTEgMSAwIDAxLTEgMUg1YTEgMSAwIDAxLTEtMVY1em0xMCAwYTEgMSAwIDAxMS0xaDRhMSAxIDAgMDExIDF2NGExIDEgMCAwMS0xIDFoLTRhMSAxIDAgMDEtMS0xVjV6TTQgMTVhMSAxIDAgMDExLTFoNGExIDEgMCAwMTEgMXY0YTEgMSAwIDAxLTEgMUg1YTEgMSAwIDAxLTEtMXYtNHptMTAgMGExIDEgMCAwMTEtMWg0YTEgMSAwIDAxMSAxdjRhMSAxIDAgMDEtMSAxaC00YTEgMSAwIDAxLTEtMXYtNHoiIC8+PC9zdmc+LAogIH0sCiAgewogICAgaHJlZjogIi9hZG1pbi92aWRlb3MiLAogICAgbGFiZWw6ICJWaWRlb3MiLAogICAgaWNvbjogPHN2ZyBjbGFzc05hbWU9InctNSBoLTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNMTUgMTBsNC41NTMtMi4wNjlBMSAxIDAgMDEyMSA4LjgydjYuMzZhMSAxIDAgMDEtMS40NDcuODk0TDE1IDE0TTMgOGEyIDIgMCAwMTItMmgxMGEyIDIgMCAwMTIgMnY4YTIgMiAwIDAxLTIgMkg1YTIgMiAwIDAxLTItMlY4eiIgLz48L3N2Zz4sCiAgfSwKICB7CiAgICBocmVmOiAiL2FkbWluL3BhY2tzIiwKICAgIGxhYmVsOiAiQ3JlZGl0IFBhY2tzIiwKICAgIGljb246IDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTE3IDlWN2EyIDIgMCAwMC0yLTJINWEyIDIgMCAwMC0yIDJ2NmEyIDIgMCAwMDIgMmgybTIgNGgxMGEyIDIgMCAwMDItMnYtNmEyIDIgMCAwMC0yLTJIOWEyIDIgMCAwMC0yIDJ2NmEyIDIgMCAwMDIgMnptNy01YTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHoiIC8+PC9zdmc+LAogIH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBZG1pblNpZGViYXIoKSB7CiAgY29uc3QgcGF0aG5hbWUgPSB1c2VQYXRobmFtZSgpOwogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVMb2dvdXQoKSB7CiAgICBhd2FpdCBmZXRjaCgiL2FwaS9hZG1pbi9hdXRoIiwgeyBtZXRob2Q6ICJERUxFVEUiIH0pOwogICAgcm91dGVyLnB1c2goIi9hZG1pbi9sb2dpbiIpOwogICAgcm91dGVyLnJlZnJlc2goKTsKICB9CgogIHJldHVybiAoCiAgICA8YXNpZGUgY2xhc3NOYW1lPSJmaXhlZCBsZWZ0LTAgdG9wLTAgaC1mdWxsIHctNjQgYmctc3VyZmFjZSBib3JkZXItciBib3JkZXItYm9yZGVyIGZsZXggZmxleC1jb2wgei00MCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTYgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy03IGgtNyBiZy1nb2xkIHJvdW5kZWQtbWQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgdGV4dC1ibGFjayIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPgogICAgICAgICAgICAgIDxwYXRoIGQ9Ik02LjMgMi44NDFBMS41IDEuNSAwIDAwNCA0LjExVjE1Ljg5YTEuNSAxLjUgMCAwMDIuMyAxLjI2OWw5LjM0NC01Ljg5YTEuNSAxLjUgMCAwMDAtMi41MzhMNi4zIDIuODQxeiIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc20iPlN0cmVhbTxzcGFuIGNsYXNzTmFtZT0idGV4dC1nb2xkIj5WYXVsdDwvc3Bhbj48L3NwYW4+CiAgICAgICAgPC9MaW5rPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkIG10LTEiPkFkbWluIFBhbmVsPC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxuYXYgY2xhc3NOYW1lPSJmbGV4LTEgcC00IHNwYWNlLXktMSI+CiAgICAgICAge05BVi5tYXAoKGl0ZW0pID0+IHsKICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IHBhdGhuYW1lID09PSBpdGVtLmhyZWY7CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8TGluayBrZXk9e2l0ZW0uaHJlZn0gaHJlZj17aXRlbS5ocmVmfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHB4LTMgcHktMi41IHJvdW5kZWQtbGcgdGV4dC1zbSBmb250LW1lZGl1bSB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgYWN0aXZlID8gImJnLWdvbGQvMTAgdGV4dC1nb2xkIGJvcmRlciBib3JkZXItZ29sZC8yMCIgOiAidGV4dC1ncmF5LTQwMCBob3Zlcjp0ZXh0LXdoaXRlIGhvdmVyOmJnLXN1cmZhY2UtaGlnaCIKICAgICAgICAgICAgICB9YH0+CiAgICAgICAgICAgICAge2l0ZW0uaWNvbn17aXRlbS5sYWJlbH0KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC9uYXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icC00IGJvcmRlci10IGJvcmRlci1ib3JkZXIiPgogICAgICAgIDxMaW5rIGhyZWY9Ii8iIHRhcmdldD0iX2JsYW5rIiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHB4LTMgcHktMi41IHJvdW5kZWQtbGcgdGV4dC1zbSB0ZXh0LWdyYXktNDAwIGhvdmVyOnRleHQtd2hpdGUgaG92ZXI6Ymctc3VyZmFjZS1oaWdoIHRyYW5zaXRpb24tY29sb3JzIG1iLTEiPgogICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNCBoLTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsyfSBkPSJNMTAgNkg2YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMmgxMGEyIDIgMCAwMDItMnYtNE0xNCA0aDZtMCAwdjZtMC02TDEwIDE0IiAvPjwvc3ZnPgogICAgICAgICAgVmlldyBTaXRlCiAgICAgICAgPC9MaW5rPgogICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlTG9nb3V0fSBjbGFzc05hbWU9InctZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBweC0zIHB5LTIuNSByb3VuZGVkLWxnIHRleHQtc20gdGV4dC1ncmF5LTQwMCBob3Zlcjp0ZXh0LXJlZC00MDAgaG92ZXI6YmctcmVkLTUwMC81IHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTQgaC00IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTE3IDE2bDQtNG0wIDBsLTQtNG00IDRIN202IDR2MWEzIDMgMCAwMS0zIDNINmEzIDMgMCAwMS0zLTNWN2EzIDMgMCAwMTMtM2g0YTMgMyAwIDAxMyAzdjEiIC8+PC9zdmc+CiAgICAgICAgICBTaWduIE91dAogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvYXNpZGU+CiAgKTsKfQo="}
+"use client";
+
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+
+const NAV = [
+  {
+    href: "/admin",
+    label: "Dashboard",
+    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm10 0a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zm10 0a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" /></svg>,
+  },
+  {
+    href: "/admin/videos",
+    label: "Videos",
+    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" /></svg>,
+  },
+  {
+    href: "/admin/packs",
+    label: "Credit Packs",
+    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>,
+  },
+];
+
+export default function AdminSidebar() {
+  const pathname = usePathname();
+  const router = useRouter();
+
+  async function handleLogout() {
+    await fetch("/api/admin/auth", { method: "DELETE" });
+    router.push("/admin/login");
+    router.refresh();
+  }
+
+  return (
+    <aside className="fixed left-0 top-0 h-full w-64 bg-surface border-r border-border flex flex-col z-40">
+      <div className="p-6 border-b border-border">
+        <Link href="/" className="flex items-center gap-2">
+          <div className="w-7 h-7 bg-gold rounded-md flex items-center justify-center">
+            <svg className="w-3.5 h-3.5 text-black" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.841z" />
+            </svg>
+          </div>
+          <span className="font-bold text-sm">Stream<span className="text-gold">Vault</span></span>
+        </Link>
+        <p className="text-xs text-muted mt-1">Admin Panel</p>
+      </div>
+
+      <nav className="flex-1 p-4 space-y-1">
+        {NAV.map((item) => {
+          const active = pathname === item.href;
+          return (
+            <Link key={item.href} href={item.href}
+              className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                active ? "bg-gold/10 text-gold border border-gold/20" : "text-gray-400 hover:text-white hover:bg-surface-high"
+              }`}>
+              {item.icon}{item.label}
+            </Link>
+          );
+        })}
+      </nav>
+
+      <div className="p-4 border-t border-border">
+        <Link href="/" target="_blank" className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-400 hover:text-white hover:bg-surface-high transition-colors mb-1">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+          View Site
+        </Link>
+        <button onClick={handleLogout} className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-400 hover:text-red-400 hover:bg-red-500/5 transition-colors">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" /></svg>
+          Sign Out
+        </button>
+      </div>
+    </aside>
+  );
+}
