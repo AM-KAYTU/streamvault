@@ -47,7 +47,7 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
           const hls = new Hls({ enableWorker: true, lowLatencyMode: false });
           hlsRef.current = hls;
           hls.loadSource(streamUrl);
-          hls.attachMedia(video);
+          hls.attachMedia(video!);
           hls.on(Hls.Events.ERROR, (_, data) => {
             if (data.fatal) { setStreamError("Stream error."); setBuffering(false); }
           });
