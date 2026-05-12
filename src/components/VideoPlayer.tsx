@@ -51,9 +51,9 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
           hls.on(Hls.Events.ERROR, (_, data) => {
             if (data.fatal) { setStreamError("Stream error."); setBuffering(false); }
           });
-        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        } else if (video!.canPlayType("application/vnd.apple.mpegurl")) {
           // Safari native HLS
-          video.src = streamUrl;
+          video!.src = streamUrl;
         } else {
           setStreamError("Your browser doesn't support this video format.");
           setBuffering(false);
