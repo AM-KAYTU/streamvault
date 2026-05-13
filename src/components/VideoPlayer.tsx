@@ -23,7 +23,7 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
   const [fullscreen, setFullscreen] = useState(false);
   const [showControls, setShowControls] = useState(true);
   const [buffering, setBuffering] = useState(true);
-  const [minutesLeft, setMinutesLeft] = useState<number | null>(null);
+  const [secondsLeft, setSecondsLeft] = useState<number | null>(null);
   const [exhausted, setExhausted] = useState(false);
   const [streamError, setStreamError] = useState("");
   const controlsTimer = useRef<ReturnType<typeof setTimeout>>();
@@ -72,7 +72,34 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
     };
   }, [videoId, pin]);
 
-  // Report watch progress every 15s
+  // Broadcast secondsLeft to Navbar via custom event
+  function broadcastCredits(secs: number) {
+    window.dispatchEvent(new CustomEvent("creditsUpdate", { detail: { secondsLeft: secs } }));
+  }
+
+  // Fetch initial credit balance
+  useEffect(() => {
+    fetch(`/api/credits/check?pin=${encodeURIComponent(pin)}`)
+      .then(r => r.json())
+      .then(d => { if (d.valid) { setSecondsLeft(d.secondsLeft); broadcastCredits(d.secondsLeft); } })
+      .catch(() => {});
+  }, [pin]);
+
+  // Live countdown — ticks every second while playing
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (!videoRef.current || videoRef.current.paused) return;
+      setSecondsLeft(prev => {
+        if (prev === null || prev <= 0) return prev;
+        const next = prev - 1;
+        broadcastCredits(next);
+        return next;
+      });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  // Report watch progress every 15s and sync accurate server value
   const reportProgress = useCallback(async () => {
     if (!videoRef.current || videoRef.current.paused) return;
     const now = Math.floor(videoRef.current.currentTime);
@@ -87,7 +114,8 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
       });
       const data = await res.json();
       if (data.ok) {
-        setMinutesLeft(data.minutesLeft);
+        setSecondsLeft(data.secondsLeft);
+        broadcastCredits(data.secondsLeft);
         if (data.exhausted) { setExhausted(true); videoRef.current?.pause(); }
       }
     } catch { /* keep playing silently on network error */ }
@@ -260,12 +288,12 @@ export default function VideoPlayer({ videoId, pin, title }: VideoPlayerProps) {
         {/* Title + time left */}
         <div className="flex items-center justify-between px-3 sm:px-4 mb-1">
           <p className="text-white text-xs sm:text-sm font-medium truncate flex-1 mr-4">{title}</p>
-          {minutesLeft !== null && (
+          {secondsLeft !== null && (
             <span className="text-gold text-xs font-semibold shrink-0 flex items-center gap-1">
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              {minutesLeft}m left
+              {Math.floor(secondsLeft / 60)}:{String(secondsLeft % 60).padStart(2, "0")} left
             </span>
           )}
         </div>

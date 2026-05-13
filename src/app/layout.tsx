@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import NavbarWrapper from "@/components/NavbarWrapper";
 
 export const metadata: Metadata = {
   title: "StreamVault — Premium Video Streaming",
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#0a0a0a] text-white min-h-screen">
-        <Navbar />
+        <NavbarWrapper />
         <main>{children}</main>
         <footer className="border-t border-border mt-20 py-10 text-center text-muted text-sm">
           <p>© {new Date().getFullYear()} StreamVault. All rights reserved.</p>

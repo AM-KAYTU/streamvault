@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 interface CreditInfo {
   valid: boolean;
-  minutesLeft: number;
+  secondsLeft: number;
 }
 
 export default function Navbar() {
@@ -18,6 +18,13 @@ export default function Navbar() {
   useEffect(() => {
     const saved = localStorage.getItem("sv_pin");
     if (saved) fetchCredits(saved);
+
+    function onCreditsUpdate(e: Event) {
+      const { secondsLeft } = (e as CustomEvent).detail;
+      setCreditInfo(prev => prev ? { ...prev, secondsLeft } : null);
+    }
+    window.addEventListener("creditsUpdate", onCreditsUpdate);
+    return () => window.removeEventListener("creditsUpdate", onCreditsUpdate);
   }, []);
 
   async function fetchCredits(pin: string) {
@@ -25,7 +32,7 @@ export default function Navbar() {
       const res = await fetch(`/api/credits/check?pin=${pin}`);
       const data = await res.json();
       if (data.valid) {
-        setCreditInfo({ valid: true, minutesLeft: data.minutesLeft });
+        setCreditInfo({ valid: true, secondsLeft: data.secondsLeft });
       } else {
         setCreditInfo(null);
         if (data.exhausted) localStorage.removeItem("sv_pin");
@@ -43,7 +50,7 @@ export default function Navbar() {
     const data = await res.json();
     if (data.valid) {
       localStorage.setItem("sv_pin", pin);
-      setCreditInfo({ valid: true, minutesLeft: data.minutesLeft });
+      setCreditInfo({ valid: true, secondsLeft: data.secondsLeft });
       setShowPinBar(false);
       setPinInput("");
     } else {
@@ -84,8 +91,10 @@ export default function Navbar() {
                     <svg className="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-gold font-bold">{creditInfo.minutesLeft}</span>
-                    <span className="text-gray-400">min left</span>
+                    <span className="text-gold font-bold tabular-nums">
+                      {Math.floor(creditInfo.secondsLeft / 60)}:{String(creditInfo.secondsLeft % 60).padStart(2, "0")}
+                    </span>
+                    <span className="text-gray-400">left</span>
                   </div>
                   <button onClick={handleLogout} className="text-xs text-gray-500 hover:text-red-400 transition-colors">Sign out</button>
                 </div>
@@ -138,8 +147,10 @@ export default function Navbar() {
           <Link href="/credits" onClick={() => setMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">Buy Watch Time</Link>
           {creditInfo && (
             <div className="flex items-center gap-2 py-2 text-sm">
-              <span className="text-gold font-bold">{creditInfo.minutesLeft}</span>
-              <span className="text-gray-400">minutes remaining</span>
+              <span className="text-gold font-bold tabular-nums">
+                {Math.floor(creditInfo.secondsLeft / 60)}:{String(creditInfo.secondsLeft % 60).padStart(2, "0")}
+              </span>
+              <span className="text-gray-400">remaining</span>
             </div>
           )}
         </div>
