@@ -1,8 +1,9 @@
-import { SignJWT, importPKCS8 } from "jose";
+import { SignJWT } from "jose";
+import { createPrivateKey } from "crypto";
 
 export async function generateStreamToken(cfVideoId: string): Promise<string> {
   const pem = process.env.CF_STREAM_PRIVATE_KEY!.replace(/\\n/g, "\n");
-  const privateKey = await importPKCS8(pem, "RS256");
+  const privateKey = createPrivateKey({ key: pem, format: "pem" });
 
   return new SignJWT({})
     .setProtectedHeader({ alg: "RS256", kid: process.env.CF_STREAM_KEY_ID! })

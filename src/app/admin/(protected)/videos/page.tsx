@@ -47,7 +47,9 @@ export default function AdminVideosPage() {
   const [error, setError] = useState("");
   const [uploadState, setUploadState] = useState<"idle" | "uploading" | "done">("idle");
   const [uploadProgress, setUploadProgress] = useState(0);
+  const [thumbState, setThumbState] = useState<"idle" | "uploading" | "done">("idle");
   const fileRef = useRef<HTMLInputElement>(null);
+  const thumbRef = useRef<HTMLInputElement>(null);
 
   async function load() {
     const r = await fetch("/api/admin/videos");
@@ -58,7 +60,8 @@ export default function AdminVideosPage() {
 
   function openNew() {
     setEditing(null); setForm(EMPTY); setError("");
-    setUploadState("idle"); setUploadProgress(0); setShowForm(true);
+    setUploadState("idle"); setUploadProgress(0);
+    setThumbState("idle"); setShowForm(true);
   }
   function openEdit(v: Video) {
     setEditing(v);
@@ -70,6 +73,7 @@ export default function AdminVideosPage() {
     });
     setUploadState(v.cfVideoId ? "done" : "idle");
     setUploadProgress(v.cfVideoId ? 100 : 0);
+    setThumbState(v.thumbnail ? "done" : "idle");
     setError(""); setShowForm(true);
   }
 
@@ -108,6 +112,23 @@ export default function AdminVideosPage() {
       setError(e instanceof Error ? e.message : "Upload failed");
       setUploadState("idle");
       setUploadProgress(0);
+    }
+  }
+
+  async function handleThumbnailSelect(file: File) {
+    setThumbState("uploading");
+    setError("");
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch("/api/admin/upload-thumbnail", { method: "POST", body: fd });
+      if (!res.ok) throw new Error("Thumbnail upload failed");
+      const { url } = await res.json();
+      setForm((f) => ({ ...f, thumbnail: url }));
+      setThumbState("done");
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Thumbnail upload failed");
+      setThumbState("idle");
     }
   }
 
@@ -260,7 +281,36 @@ export default function AdminVideosPage() {
                   />
                 </div>
 
-                <Field label="Thumbnail URL *" value={form.thumbnail} onChange={(v) => setForm({ ...form, thumbnail: v })} placeholder="https://..." />
+                {/* Thumbnail Upload */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-1.5">Thumbnail *</label>
+                  {thumbState === "done" ? (
+                    <div className="flex items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-lg px-4 py-3">
+                      <img src={form.thumbnail} alt="thumbnail" className="w-16 h-10 object-cover rounded" />
+                      <div className="flex-1 min-w-0">
+                        <p className="text-green-400 text-sm font-medium">Thumbnail uploaded</p>
+                      </div>
+                      <button
+                        onClick={() => { setThumbState("idle"); setForm({ ...form, thumbnail: "" }); if (thumbRef.current) thumbRef.current.value = ""; }}
+                        className="text-gray-500 hover:text-white text-xs shrink-0"
+                      >Replace</button>
+                    </div>
+                  ) : thumbState === "uploading" ? (
+                    <div className="bg-surface-high border border-border rounded-lg px-4 py-3 text-sm text-gray-300">
+                      Uploading thumbnail…
+                    </div>
+                  ) : (
+                    <div
+                      className="border-2 border-dashed border-border hover:border-gold/50 rounded-lg px-4 py-5 text-center cursor-pointer transition-colors"
+                      onClick={() => thumbRef.current?.click()}
+                    >
+                      <p className="text-sm text-gray-400">Click to upload thumbnail image</p>
+                      <p className="text-xs text-gray-600 mt-1">JPG, PNG, WebP</p>
+                    </div>
+                  )}
+                  <input ref={thumbRef} type="file" accept="image/*" className="hidden"
+                    onChange={(e) => { const f = e.target.files?.[0]; if (f) handleThumbnailSelect(f); }} />
+                </div>
                 <Field label="Duration (seconds)" value={form.duration} onChange={(v) => setForm({ ...form, duration: v })} placeholder="e.g. 3600" type="number" />
                 <Field label="Category" value={form.category} onChange={(v) => setForm({ ...form, category: v })} placeholder="e.g. Tutorial" />
                 <div className="flex gap-6">
@@ -279,7 +329,7 @@ export default function AdminVideosPage() {
               <div className="flex gap-3 mt-6">
                 <button
                   onClick={handleSave}
-                  disabled={saving || uploadState === "uploading"}
+                  disabled={saving || uploadState === "uploading" || thumbState === "uploading"}
                   className="btn-gold flex-1 py-3 disabled:opacity-50"
                 >
                   {saving ? "Saving..." : editing ? "Save Changes" : "Add Video"}

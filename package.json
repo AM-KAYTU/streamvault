@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",
+    "@vercel/blob": "^2.3.3",
     "axios": "^1.7.2",
     "crypto-js": "^4.2.0",
     "hls.js": "^1.6.16",
