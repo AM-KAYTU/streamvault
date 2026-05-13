@@ -1,16 +1,19 @@
-import { SignJWT } from "jose";
-import { createPrivateKey } from "crypto";
-
 export async function generateStreamToken(cfVideoId: string): Promise<string> {
-  const pem = process.env.CF_STREAM_PRIVATE_KEY!.replace(/\\n/g, "\n");
-  const privateKey = createPrivateKey({ key: pem, format: "pem" });
-
-  return new SignJWT({})
-    .setProtectedHeader({ alg: "RS256", kid: process.env.CF_STREAM_KEY_ID! })
-    .setSubject(cfVideoId)
-    .setIssuedAt()
-    .setExpirationTime("2h")
-    .sign(privateKey);
+  const exp = Math.floor(Date.now() / 1000) + 7200; // 2 hours
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${process.env.CF_ACCOUNT_ID}/stream/${cfVideoId}/token`,
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.CF_STREAM_API_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ exp }),
+    }
+  );
+  if (!res.ok) throw new Error(`CF token error (${res.status}): ${await res.text()}`);
+  const data = await res.json();
+  return data.result.token;
 }
 
 export async function createDirectUpload(): Promise<{ uid: string; uploadUrl: string }> {
